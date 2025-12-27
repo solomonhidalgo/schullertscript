@@ -1,0 +1,6568 @@
+00:01 [Musik]
+00:08 
+
+00:08 so gut morgen willkommen zurück zur
+00:11 
+
+00:11 vorlesung heute beschäftigen wir uns mit
+00:16 
+
+00:16 tangential vektoren und es ist in der
+00:19 
+
+00:19 tat einer der technischen
+00:21 
+
+00:21 schlüsselbegriffe in der mechanik und
+00:24 
+
+00:24 wir werden das natürlich auf grundlage
+00:26 
+
+00:26 besten entwickeln was wir bisher gemacht
+00:28 
+
+00:28 haben aber die intuition ist ihm wohl
+00:32 
+
+00:32 allen vertraut stellen sie sich vor sie
+00:34 
+
+00:34 bewegen sich sie haben eine kurve auf
+00:36 
+
+00:36 einer mannigfaltigkeit auf einer
+00:38 
+
+00:38 differenzierteren mannigfaltigkeit und
+00:41 
+
+00:41 die intuition hinter dem tangential
+00:44 
+
+00:44 vector ist wohl die dass sie laufen und
+00:47 
+
+00:47 wenn zu einem bestimmten zeitpunkt sie
+00:49 
+
+00:49 irgendwo sind können sie zu einem für
+00:51 
+
+00:51 jedem bestimmten zeitpunkt den
+00:53 
+
+00:53 tangential vector an diese kurve
+00:56 
+
+00:56 angucken oder man würde physikalisch
+00:58 
+
+00:58 auch sagen
+01:07 
+
+01:07 man würde physikalisch auch sagen den
+01:09 
+
+01:09 geschwindigkeits vector und es ist ja
+01:13 
+
+01:13 eigentlich ein ganz schönes bild und man
+01:14 
+
+01:14 könnte jetzt denken nun gut wir bitten
+01:16 
+
+01:16 diese mannigfaltigkeit in einen höher
+01:18 
+
+01:18 dimensionalen raum ein also zum beispiel
+01:20 
+
+01:20 diese zweidimensionale mannigfaltigkeit
+01:22 
+
+01:22 hier hätte man in den dreidimensionalen
+01:24 
+
+01:24 raum ein und kann dann natürlich die in
+01:27 
+
+01:27 den dreidimensionalen raum weg stehenden
+01:30 
+
+01:30 vektoren wunderbar verstehen
+01:34 
+
+01:34 das kann man tatsächlich auch so machen
+01:37 
+
+01:37 aber wir machen das technisch anders aus
+01:40 
+
+01:40 einem technischen grund aber auch aus
+01:43 
+
+01:43 einem philosophischen grund denn stellen
+01:46 
+
+01:46 sie sich mal vor wir wollen mit dieser
+01:48 
+
+01:48 mannigfaltigkeit das gesamte universum
+01:50 
+
+01:50 beschreiben die gesamte raum zeit sogar
+01:53 
+
+01:53 da wäre es ja aber witzig die das
+01:56 
+
+01:57 gesamte universum in etwas noch größeres
+01:59 
+
+01:59 einbetten zu müssen und plötzlich von
+02:02 
+
+02:02 geschwindigkeits vektoren von kurven
+02:04 
+
+02:04 reden zu können
+02:05 
+
+02:05 ja das läge ja dann außerhalb des
+02:08 
+
+02:08 universums das ist zumindest mal
+02:10 
+
+02:10 philosophisch nicht so besonders schön
+02:12 
+
+02:12 und man nennt das in der differential
+02:14 
+
+02:14 geometrie würde man dieses bild würde
+02:17 
+
+02:17 man eine extrinsische definition oder
+02:20 
+
+02:20 ein extremistisches bild eines
+02:24 
+
+02:24 tangential rektors nennen und was wir
+02:27 
+
+02:27 machen wollen ist eine intrinsische
+02:29 
+
+02:29 definition die bei der die
+02:32 
+
+02:32 geschwindigkeit nicht bezug nimmt die
+02:35 
+
+02:35 definition des geschwindigkeits vector
+02:37 
+
+02:37 ist nicht bezug nimmt auf den umgebenden
+02:40 
+
+02:40 raum und ich behaupte dass es auch das
+02:43 
+
+02:43 viel natürlichere konzept wenn sie das
+02:45 
+
+02:45 neue übungsplatz nehmen befindet sich
+02:47 
+
+02:47 rechts oben ein kleines bild und da
+02:52 
+
+02:52 steht darunter vector zähler
+02:53 
+
+02:53 das ist der geschwinde fahrer ja der
+02:57 
+
+02:57 vector das ist der fahrer und in der tat
+03:00 
+
+03:00 ihre frühesten kindheitserinnerungen an
+03:02 
+
+03:02 geschwindigkeit sind mit sicherheit die
+03:04 
+
+03:04 im auto dann wird auto gefahren und ein
+03:07 
+
+03:07 auto das hat zu einem bestimmten
+03:09 
+
+03:09 zeitpunkt eine bestimmte geschwindigkeit
+03:11 
+
+03:11 okay und in der tat ist geschwindigkeit
+03:14 
+
+03:14 oder geschwindigkeits vector ist ja
+03:16 
+
+03:16 nichts was einfach so da ist sondern es
+03:19 
+
+03:19 ist immer verbunden
+03:20 
+
+03:20 mit einer bahn kurve in dem fall der
+03:22 
+
+03:22 bahn kurve des autos und wenn sie als
+03:25 
+
+03:25 kind nie erfahren sie als kind im auto
+03:28 
+
+03:28 die geschwindigkeit bitte pro jahr das
+03:35 
+
+03:35 ist schon fortgeschritten bitte ja das
+03:40 
+
+03:40 ist nicht fortgeschritten genug
+03:42 
+
+03:42 sie gucken aus dem fenster oder und da
+03:46 
+
+03:46 vision so die bäume vorbei und die wie
+03:48 
+
+03:48 die posten an der seite der straße nicht
+03:50 
+
+03:50 wahr
+03:51 
+
+03:51 das heißt sie schauen auf ihre umgebung
+03:53 
+
+03:53 und gucken wie das alles für an ihnen
+03:56 
+
+03:56 vorbei fließt und sie könnten natürlich
+03:58 
+
+03:58 auch statt irgendwelcher pfosten dort
+04:00 
+
+04:00 aufzustellen könnten sie auch irgendwie
+04:02 
+
+04:02 schauen der ist so ein gebirge und sie
+04:03 
+
+04:03 fahren in diesem gebirge vorbei und sie
+04:05 
+
+04:05 wegen dieses höher wird und wieder
+04:07 
+
+04:07 niedriger weil sie so zum fenster
+04:07 
+
+04:07 aufschwung wieder hören wie der
+04:09 
+
+04:09 niedriger oder wenn sie jetzt zb durch
+04:12 
+
+04:12 gebiete fahren mit großen
+04:13 
+
+04:13 temperaturschwankungen dann stellen sie
+04:16 
+
+04:16 fest oder die temperatur ist es heiß ist
+04:18 
+
+04:18 oder keinen sinn da heißt wieder kalt
+04:19 
+
+04:19 merklich schneller sie fahren ist so
+04:20 
+
+04:20 schneller wechselt es ab
+04:22 
+
+04:22 das heißt wenn sie entlang einer kurve
+04:24 
+
+04:24 fahren mit ihrem auto und sie betrachten
+04:27 
+
+04:27 eine umgebung sagen wir mal die
+04:29 
+
+04:29 funktions werte in der umgebung
+04:31 
+
+04:31 temperaturen berghöhen oder so
+04:33 
+
+04:33 irgendetwas die dann eben dran sind und
+04:35 
+
+04:35 schauen wie die sich ändern während sie
+04:38 
+
+04:38 fahren
+04:39 
+
+04:39 je schneller die sich ändern desto
+04:41 
+
+04:41 schneller fahren sie für gegebene berge
+04:43 
+
+04:43 und gegebene temperaturverteilung nicht
+04:45 
+
+04:45 wahr und für bäume und was auch immer
+04:48 
+
+04:48 und genau das ist die intrinsische
+04:49 
+
+04:49 beschreibung da brauchen sie gar keinen
+04:51 
+
+04:51 umgebenden raum da brauchen sie eben nur
+04:52 
+
+04:52 auf der mannigfaltigkeit auf der sie
+04:54 
+
+04:54 fahren referenz funktionen okay das ist
+04:58 
+
+04:58 die intuition dass extremistische bild
+05:01 
+
+05:01 was ich jetzt angedeutet habe ist dass
+05:03 
+
+05:03 intrinsische bild und jetzt machen wir
+05:05 
+
+05:05 das alles technisch und erster abschnitt
+05:09 
+
+05:09 platte funktionen
+05:15 
+
+05:15 und glatte kurven so und das ist
+05:24 
+
+05:24 zunächst mal eine erinnerung an die
+05:26 
+
+05:26 letzte vorlesung
+05:31 
+
+05:31 da hatten wir so was genommen wie eine
+05:33 
+
+05:33 glatte mannigfaltigkeit und was war das
+05:37 
+
+05:37 noch mal eine glatte mannigfaltigkeit
+05:39 
+
+05:39 das war auf jeden fall mal eine menge m
+05:40 
+
+05:40 der punkte dann hatten sie eine
+05:43 
+
+05:43 topologie damit sie überhaupt mal
+05:44 
+
+05:44 mannigfaltigkeit wird eine topologische
+05:46 
+
+05:46 aber dann haben wir uns noch ein atlas
+05:49 
+
+05:49 ausgesucht und in diesem fall ein c
+05:52 
+
+05:52 unendlich atlas dann heißt die
+05:54 
+
+05:54 mannigfaltigkeit glatt und sie erinnern
+05:56 
+
+05:56 sich der 10 endlich atlas der hat nur
+05:57 
+
+05:57 karten dass wenn sie die karten
+05:59 
+
+05:59 übergangs funktionen betrachten sind die
+06:02 
+
+06:02 als funktion vom r hoch dem m in den r
+06:04 
+
+06:04 hoch dmm glatt beliebig oft stetig
+06:10 
+
+06:10 differenzierter und diese glatte
+06:12 
+
+06:12 mannigfaltigkeit die erlaubt die
+06:14 
+
+06:14 definition von glatten funktionen und da
+06:18 
+
+06:18 wir die gleich noch mal brauchen
+06:22 
+
+06:22 wiederhole ich die noch mal wir hatten
+06:24 
+
+06:24 gesagt dass eine funktion auf der
+06:28 
+
+06:28 mannigfaltigkeit glatt heißen soll
+06:34 
+
+06:34 falls ja ja und jetzt brauchen wir den
+06:37 
+
+06:37 atlas falls für jede karte dix die sie
+06:42 
+
+06:42 aus diesem atlas herausnehmen ja wie war
+06:45 
+
+06:45 noch mal die bedingungen für gleichheit
+06:47 
+
+06:47 in der karte ausgedrückt das kann ja
+06:49 
+
+06:49 kein mensch merken ich mir auch nicht
+06:51 
+
+06:51 einmal ich mir immer ein bild also wie
+06:54 
+
+06:54 ist das wir haben eine karte uhr die
+06:55 
+
+06:55 liegt in m
+06:56 
+
+06:56 da kann ich mit sicherheit das f drauf
+06:58 
+
+06:58 werfen dann ist es allerdings
+06:59 
+
+06:59 eingeschränkt auf das tut uns im moment
+07:01 
+
+07:01 nicht weh
+07:02 
+
+07:02 dann habe ich hier die karten abbildung
+07:04 
+
+07:04 xd geht nach iks von u
+07:06 
+
+07:06 das ist aber eine teilmenge des r hoch
+07:08 
+
+07:08 die ja gut das einzige was ich hier
+07:10 
+
+07:10 vernünftig hin schreiben kann ist es
+07:12 
+
+07:12 nach iks in versailles ja genau das war
+07:16 
+
+07:16 nämlich die darstellung der funktion auf
+07:19 
+
+07:19 der karte statt in der warenwelt okay
+07:22 
+
+07:22 und wir haben das hier zu unendlich
+07:25 
+
+07:25 nennen wollen glatt nennen wollen wenn
+07:26 
+
+07:26 das hier glatt ist
+07:28 
+
+07:28 da unten können wir das entscheiden
+07:30 
+
+07:30 falls also falls für jede solche karte
+07:33 
+
+07:33 die abbildung fx invers die ihm geht von
+07:37 
+
+07:37 iks von teilmenge des rd
+07:40 
+
+07:40 nach elf als die glatt ist als funktion
+07:47 
+
+07:47 vom rd in den r
+07:50 
+
+07:50 und das können sie mit einfachsten
+07:51 
+
+07:51 analysis mitteln überprüfen
+07:54 
+
+07:54 sie erinnern sich das war die definition
+07:55 
+
+07:55 von glatter funktion was ich ihnen
+07:59 
+
+07:59 letztes mal noch nicht gezeigt hatte
+08:01 
+
+08:01 aber bereits darauf hingewiesen hatte
+08:02 
+
+08:02 dass es ganz genauso funktioniert ist
+08:04 
+
+08:04 die definition von glatter kurve also
+08:07 
+
+08:07 wenn sie jetzt eine kurve nehmen gamma
+08:09 
+
+08:09 die zunächst mal auf einen parameter
+08:12 
+
+08:12 bereich ganz in der mannigfaltigkeit
+08:14 
+
+08:14 landet also hier unser gelber kamerad
+08:17 
+
+08:17 dann können sie auch diese kurve glatt
+08:20 
+
+08:20 nennen
+08:20 
+
+08:20 es gibt eine neue definition dass da war
+08:23 
+
+08:23 nur die recycelte heißt glatt falls nun
+08:28 
+
+08:28 gut wir wollen das wieder ganz ähnlich
+08:30 
+
+08:30 machen
+08:30 
+
+08:30 wir wollen uns wieder eine karte nehmen
+08:33 
+
+08:33 selbstverständlich aus unserem schicken
+08:35 
+
+08:35 c unendlich atlas und naja dieses
+08:38 
+
+08:38 diagramm nicht dass es nachher
+08:40 
+
+08:40 verwechseln dass das denken sie sich nur
+08:46 
+
+08:46 und genauso wenn sie diese situation
+08:48 
+
+08:48 jetzt verstehen wollen dann denken sie
+08:51 
+
+08:51 sich wieder wie das aussieht jetzt haben
+08:53 
+
+08:53 sie hier wenn sie in einer karte hier
+08:56 
+
+08:56 landen da haben sie können sie natürlich
+08:58 
+
+08:58 nicht den gesamten parameterbereich
+08:60 
+
+08:60 nehmen weil wir vielleicht diese menge
+09:03 
+
+09:03 die sie da auswählen
+09:05 
+
+09:05 da läuft ja die kurve rein und raus und
+09:07 
+
+09:07 rein und raus eventuell da können sie
+09:10 
+
+09:10 natürlich nur wenn sie die kurve mit
+09:12 
+
+09:12 diesem ziel einschränken können sie
+09:14 
+
+09:14 natürlich nur das urbild der kurve von
+09:18 
+
+09:18 diesem unter der kurve nehmen sind also
+09:20 
+
+09:20 gerade die parameter die sie da drin
+09:22 
+
+09:22 liegen lassen dann haben sie hier wieder
+09:24 
+
+09:24 die karten abbildungen geht es nach iks
+09:25 
+
+09:25 von sind teilmenge des erhofft da fühlen
+09:28 
+
+09:28 wir uns zu hause und hier können sie
+09:31 
+
+09:31 jetzt die nacheinander ausführungen
+09:32 
+
+09:32 machen jetzt ist allerdings nichts nach
+09:34 
+
+09:34 da mal unten und das unterschreibe ich
+09:37 
+
+09:37 nur dran weil es mathematisch ganz
+09:39 
+
+09:39 streng genommen hat schon eine andere
+09:40 
+
+09:40 kurve ist weil die an anderen
+09:42 
+
+09:42 definitions bereich hat aber die ist
+09:44 
+
+09:44 natürlich dort so definiert wie die
+09:46 
+
+09:46 andere kurve also das ist die situation
+09:48 
+
+09:48 die wir uns in diagramm wieder klar
+09:50 
+
+09:50 machen es ist auch klar dass würde wäre
+09:53 
+
+09:53 wohl die kartendarstellung der kurve war
+09:56 
+
+09:56 die landet hier in der karte das ist
+09:58 
+
+09:58 dass der kurs den der kapitän in der
+10:00 
+
+10:00 karte einmal das ist der kurs den das
+10:02 
+
+10:02 schiff in der warenwelt nimmt ja und
+10:04 
+
+10:04 jetzt wollen wir das hier glatt nennen
+10:07 
+
+10:07 ja wann wo ja wenn das hier glatt ist
+10:08 
+
+10:08 falls für alle tralala iks nachgang mit
+10:13 
+
+10:13 ebendiesem definitions und zielbereich
+10:17 
+
+10:17 glatt ist als funktion als abbildung die
+10:23 
+
+10:23 jetzt vom r oder ein teil des ersten
+10:26 
+
+10:26 teil des erhofften geht und das können
+10:28 
+
+10:28 wir wieder entscheiden ganz einfach sie
+10:31 
+
+10:31 hatte funktion glatte abbildung und so
+10:32 
+
+10:32 weiter und so fort
+10:33 
+
+10:33 so jetzt haben wir hier glatte kurven
+10:38 
+
+10:38 und glatte funktionen
+10:40 
+
+10:40 sie sind vielleicht aus der schul physik
+10:42 
+
+10:42 gewohnt dass man so kurven addieren kann
+10:45 
+
+10:45 aber es macht ja gar keinen sinn kann
+10:48 
+
+10:48 ich irgendwie eine kurve gamma und eine
+10:50 
+
+10:50 kurve gamma schlange nehmen und die
+10:52 
+
+10:52 addieren
+10:53 
+
+10:53 das müsste ich ja punktweise machen aber
+10:55 
+
+10:55 ich habe im zielbereich habe ich da
+10:58 
+
+10:58 keine addition es macht überhaupt gar
+10:60 
+
+10:60 keinen sehen sie überhaupt nicht die
+11:01 
+
+11:01 struktur dafür und so in so einer wahren
+11:04 
+
+11:04 welt was ist denn paris plus rom soll es
+11:07 
+
+11:07 sein das gibt es nicht paris plus rom
+11:09 
+
+11:09 macht keinen sinn in der karte könnten
+11:12 
+
+11:12 sie addieren sie könnten sagen ich
+11:13 
+
+11:13 definiere das als die summe von kurven
+11:15 
+
+11:15 in der karte da stellt sich raus da wäre
+11:17 
+
+11:17 das ergebnis nicht taten unabhängig sei
+11:20 
+
+11:20 auch keine schlechte idee es bleibt
+11:22 
+
+11:22 dabei kurven kann man nicht agieren
+11:25 
+
+11:25 allerdings bemerkung anderes als kurven
+11:38 
+
+11:38 kann man funktionen und insbesondere
+11:46 
+
+11:46 natürlich glatte funktionen addieren und
+11:51 
+
+11:51 skalieren
+11:55 
+
+11:55 ich führe das einmal aus und gebt dem
+11:58 
+
+11:58 einen namen punktweise addition und
+12:00 
+
+12:00 skalierung und in zukunft sage ich nur
+12:03 
+
+12:03 noch punktweise addition oder punktweise
+12:05 
+
+12:05 skalierung definiert und dann müssen sie
+12:07 
+
+12:07 das auf den fall wo es vorkommt anpassen
+12:10 
+
+12:10 ok das spart mir spucke und ist für sie
+12:12 
+
+12:12 gute übung wie geht das
+12:16 
+
+12:16 also nehmen wir mal eine funktion es
+12:19 
+
+12:19 also sein
+12:21 
+
+12:21 f und g sein dass mal funktionen auf der
+12:26 
+
+12:26 ganzen mannigfaltigkeit also abbildung
+12:28 
+
+12:28 von m nach r
+12:30 
+
+12:30 dann können wir eine operation
+12:32 
+
+12:32 definieren die nenne ich jetzt mal
+12:34 
+
+12:34 kringel plus später lassen wir den
+12:36 
+
+12:36 kringel weg aber das ist mir jetzt zu
+12:38 
+
+12:38 früh reif also wir schreiben die kringel
+12:42 
+
+12:42 plus und was macht diese kringel plus
+12:44 
+
+12:44 operation die nimmt eine funktion und
+12:47 
+
+12:47 nimmt die arten eine andere funktion und
+12:50 
+
+12:50 soll daraus wieder eine funktion machen
+12:53 
+
+12:53 ja also dieses f + + g das sollen wieder
+12:58 
+
+12:58 in ihr in seiner gesamtheit soll das
+13:02 
+
+13:02 wieder eine funktion seien ja wie machen
+13:05 
+
+13:05 wir das hier definieren das durch
+13:07 
+
+13:07 folgende festsetzung wir sagen diese
+13:10 
+
+13:10 neue funktion die hat einfach den namen
+13:12 
+
+13:12 f kringel plus gehen diese neue
+13:16 
+
+13:16 funktionen die soll festgelegt seien ja
+13:19 
+
+13:19 wodurch ja wenn ich irgendwas definiere
+13:21 
+
+13:21 muss ich mich zurückbesinnen auf
+13:22 
+
+13:22 bekanntes und was ich tun könnte
+13:25 
+
+13:25 ich könnte ja die funktion f am punkte
+13:28 
+
+13:28 im auswerten und die funktion ge am
+13:32 
+
+13:32 punkt und dann könnte ich diese beiden
+13:35 
+
+13:35 ergebnisse wo liegen die denn er von m
+13:37 
+
+13:37 ist wo also kann ich da die bekannte
+13:43 
+
+13:43 addition über ich geb dir jetzt mal noch
+13:46 
+
+13:46 hier den spitznamen plus unten r
+13:49 
+
+13:49 die kann ich benutzen und definiere
+13:52 
+
+13:52 damit eine addition zwischen funktionen
+13:54 
+
+13:54 die addition zwischen zahlen ist eine
+13:56 
+
+13:56 zahl aber die addition zwischen zwei
+13:58 
+
+13:58 funktionen ist eine funktion erst wenn
+14:01 
+
+14:01 ich diese funktion wieder auf ein
+14:02 
+
+14:02 element des definitions bereichs drauf
+14:05 
+
+14:05 werfen kriege ich wieder eine zahl
+14:08 
+
+14:08 ok und eine solche definition hier der
+14:12 
+
+14:12 gibt man einen namen das ist also was
+14:14 
+
+14:14 heißt er nahm das ist mehr so art
+14:16 
+
+14:16 konstruktionsprinzip diese konstruktion
+14:21 
+
+14:21 diese konstruktion heißt punktweise
+14:30 
+
+14:30 vererbung punktweise vererbung ich weiß
+14:36 
+
+14:36 wie ich auf dem zielbereich addiere und
+14:39 
+
+14:39 dann mache ich das punktweise ich
+14:41 
+
+14:41 nämlich für jeden wert auf dem ich aus
+14:42 
+
+14:42 vehrte mache ich das so okay es ist auf
+14:45 
+
+14:45 jeden fall eine möglichkeit damit man
+14:47 
+
+14:47 das nicht immer so ausführlich
+14:48 
+
+14:48 hinschreiben muss schreibt man hier
+14:49 
+
+14:49 punktweise und jetzt kann ich natürlich
+14:52 
+
+14:52 ebenso eine skalierung machen in dem
+14:57 
+
+14:57 fall interessieren wir uns jetzt nicht
+14:58 
+
+14:58 für das produkt zwischen zwei funktionen
+14:60 
+
+14:60 sondern wir interessieren uns für eine
+15:04 
+
+15:04 skalierung in bei den ich ihnen eine
+15:06 
+
+15:06 reelle zahl gebe und dann definiere ich
+15:10 
+
+15:10 will mal eine funktion und ich definiere
+15:16 
+
+15:16 das wieder punktweise in dem ich sagen
+15:19 
+
+15:19 das ist alpha mal f ausgewertet am punkt
+15:22 
+
+15:22 und dazwischen kann ich natürlich dieses
+15:24 
+
+15:24 erbe nutzen
+15:25 
+
+15:25 ok ja ist alles ganz schön und so was
+15:30 
+
+15:30 ist dann natürlich wiederum eine
+15:31 
+
+15:31 punktweise vererbung aber in diesem fall
+15:34 
+
+15:34 ist es eben die punktweise vererbung in
+15:38 
+
+15:38 diesem fall ist halt punktweise
+15:39 
+
+15:39 vererbung der multiplikation auf das
+15:44 
+
+15:44 erscheint ihnen das vielleicht auf den
+15:45 
+
+15:45 ersten blick ein bisschen unnötig
+15:46 
+
+15:46 abstrakt aber das ist ganz wichtig auch
+15:48 
+
+15:48 wenn sie in der schule lernen die summen
+15:50 
+
+15:50 regel beim ableiten
+15:52 
+
+15:52 die bezieht sich auf dieses plus sie
+15:54 
+
+15:54 leitet nämlich funktionen ab nicht
+15:56 
+
+15:56 funktions werte sie müssen nämlich hier
+15:58 
+
+15:58 den strich setzen wenn sie ableiten erst
+16:01 
+
+16:01 ableiten dann auswärts
+16:02 
+
+16:02 also die summen regel beim ableiten die
+16:05 
+
+16:05 bezieht sich hier auch auf dieses plus
+16:06 
+
+16:06 gut hier können wir nicht so einfach
+16:08 
+
+16:08 ableiten weil der funktion auf der
+16:09 
+
+16:09 mannigfaltigkeit haben da kommen wir
+16:10 
+
+16:10 gleich dazu so diese definition steht so
+16:14 
+
+16:14 und ja was will ich damit sagen
+16:29 
+
+16:29 das ist jetzt so ein typischer fall wo
+16:32 
+
+16:32 man struktur erkennt und ich fasse das
+16:36 
+
+16:36 mal in eine definition definition es
+16:40 
+
+16:40 bezeichnet sie unendlich m
+16:47 
+
+16:47 die menge und zunächst mal nur eine
+16:50 
+
+16:50 menge so unendlich m
+16:54 
+
+16:54 das ist die sammlung aller funktionen
+16:58 
+
+16:58 auf m
+16:59 
+
+16:59 für die gilt dass sie in unseren
+17:02 
+
+17:02 definierten sinne glatt sind ja gut das
+17:05 
+
+17:05 ist einfach eines unendlich ist einfach
+17:07 
+
+17:07 die menge aller glatten funktionen das
+17:10 
+
+17:10 ist aber nur eine menge und wir
+17:13 
+
+17:13 beobachten jetzt bzw das müsste man
+17:15 
+
+17:15 natürlich nachprüfen dass wenn sie diese
+17:17 
+
+17:17 menge nehmen und sie spalten die aus mit
+17:21 
+
+17:21 der von mir eben definierten punkt
+17:23 
+
+17:23 weisen addition und skalierung oder es
+17:27 
+
+17:27 multiplikation dann erfüllt diese
+17:30 
+
+17:30 struktur die aktion cani und adu hätten
+17:39 
+
+17:39 sie die ist es kommunikativ gesetz
+17:43 
+
+17:43 assoziativ gesetz gesetz vom neutralen
+17:45 
+
+17:45 element gesetz vom in wersen element
+17:48 
+
+17:48 assoziativ gesetz distribute gesetz noch
+17:50 
+
+17:50 ein distributor gesetz und das
+17:52 
+
+17:52 universitätsgesetz und von welcher
+17:55 
+
+17:55 struktur sind das die aktion bravo genau
+17:59 
+
+17:59 das ganze bildet einen vektor raum
+18:02 
+
+18:02 das heißt die glatten funktionen in
+18:05 
+
+18:05 ihrer gesamtheit mit diesen
+18:07 
+
+18:07 verknüpfungen bilden einen vektor raum
+18:10 
+
+18:10 sind das schon die vektoren die wir
+18:12 
+
+18:12 suchen nein die haben mit dem vektoren
+18:15 
+
+18:15 die wir da basteln wollen gar nichts zu
+18:17 
+
+18:17 tun aber wir brauchen sie als
+18:19 
+
+18:19 hilfsmittel um sie zu basteln okay also
+18:22 
+
+18:22 jetzt hier nicht von dem begriff vector
+18:24 
+
+18:24 allzu früh sich vereinnahmen lassen
+18:27 
+
+18:27 bitte so ende das war einfach nur eine
+18:32 
+
+18:32 beobachtung über diese glatten
+18:35 
+
+18:35 funktionen die ich eben addieren kann
+18:39 
+
+18:39 nächster abschnitt tangential vektoren
+18:48 
+
+18:48 jetzt kommen wir zur konkreten
+18:50 
+
+18:50 definition und ich schreibe es einfach
+18:55 
+
+18:55 mal hin und dann starren wir das
+18:56 
+
+18:57 zusammen an und dann wird alles klar
+19:01 
+
+19:01 also jetzt würde zu hören das ist
+19:03 
+
+19:03 wirklich der zentrale punkt hier
+19:05 
+
+19:05 wir betrachten nun also eine glatte
+19:09 
+
+19:09 kurve da mal irgend eine glatte kurve
+19:17 
+
+19:17 gamma und wobei irgendein gewählter
+19:27 
+
+19:27 punkt p durch den die kurve läuft also
+19:30 
+
+19:30 ich habe hier irgendein parameter lambda
+19:32 
+
+19:32 0 und zu diesem parameter wert lampen 0
+19:36 
+
+19:36 da soll die kurve durch den punkt p
+19:38 
+
+19:38 laufen also wer dann noch mal ein bild
+19:41 
+
+19:41 malen mannigfaltigkeit kurve und die
+19:46 
+
+19:46 kurve tut uns halt den gefallen dass sie
+19:48 
+
+19:48 durch diesen punkt p durchtrennt und das
+19:50 
+
+19:51 tut sie zu einem parameter der wert
+19:53 
+
+19:53 lambda 0
+19:54 
+
+19:54 wir betrachten eine solche platte kurve
+19:58 
+
+19:58 definition dann heißt jetzt schreibe ich
+20:05 
+
+20:05 erstmal was hin
+20:06 
+
+20:06 das objekt heißt groß und alle unsere
+20:10 
+
+20:10 tangential vektoren werden immer groß
+20:12 
+
+20:12 xyz heißen dann heißt größe ist aber
+20:16 
+
+20:16 dass das ein spezielles groß ist das ist
+20:18 
+
+20:18 nämlich ein tangential vector an die
+20:20 
+
+20:20 kurve in puncto dass das der tangential
+20:23 
+
+20:23 vector an die kurve gama ist indizieren
+20:26 
+
+20:26 wir dadurch dass wir sagen an der der
+20:28 
+
+20:28 kurve gamma und jetzt wollen wir den
+20:32 
+
+20:32 aber nicht irgendwo ich könnte an dieser
+20:34 
+
+20:34 kurve an verschiedenen stellen ein
+20:36 
+
+20:36 tangential vector definieren ich möchte
+20:38 
+
+20:38 den an der stelle kleinen p ich will
+20:40 
+
+20:40 jetzt also einen tangential vector
+20:42 
+
+20:42 entschuldigt habe die tangentiale weg
+20:44 
+
+20:44 nur gesagt vergessen wieder
+20:45 
+
+20:45 ich nenne das ding gleich anders lachen
+20:47 
+
+20:47 invest tangential vector ich will dieses
+20:49 
+
+20:49 objekt hier definieren
+20:50 
+
+20:50 aber ich hätte wirklich nicht tangential
+20:52 
+
+20:52 weg wir sagen dürfen die ganze vorlesung
+20:54 
+
+20:54 ist versaut
+20:56 
+
+20:56 also fangen wieder ganz von vorne an
+21:00 
+
+21:00 okay wir betrachten nur eine kurve und
+21:02 
+
+21:02 jetzt definiere ich da so ein objekt und
+21:05 
+
+21:05 jetzt werden sie nämlich auch gucken was
+21:06 
+
+21:06 das für ein objekt ist das macht nämlich
+21:08 
+
+21:08 folgendes das nimmt nämlich ein
+21:10 
+
+21:10 beliebiges element aus dem weg torraum
+21:13 
+
+21:13 der glatten funktion ok mit irgend eine
+21:17 
+
+21:17 glatte funktion und dieses objekt bildet
+21:20 
+
+21:20 irgendeine gegebene glatte funktion auf
+21:24 
+
+21:24 der mannigfaltigkeit auf nur eine reelle
+21:26 
+
+21:26 zahl ab der vitus denn dass er ist tut
+21:30 
+
+21:30 es folgendermaßen ickx und dammer p
+21:35 
+
+21:35 mein ziel heißt das ding einfach denken
+21:37 
+
+21:37 sich nichts bei das ist einfach der
+21:38 
+
+21:38 spitzname von dem ding ja nicht unten
+21:40 
+
+21:40 gamma ist und in japan wirkt aufnimmt so
+21:44 
+
+21:44 ein element hier raus ja wenn ich die
+21:47 
+
+21:47 abbildung definieren will muss ich sagen
+21:48 
+
+21:48 wie es das tut und nichts einfacher als
+21:51 
+
+21:51 das desire kurve geht nach m geht nach
+22:02 
+
+22:02 mit f nach er die kurve legt hier dann
+22:05 
+
+22:05 kann ich zum beispiel so was machen dass
+22:07 
+
+22:07 wenn eine funktion von den er ja die
+22:08 
+
+22:08 gefällt mir also wieder nur die
+22:11 
+
+22:11 situation klargemacht dass sie meine
+22:13 
+
+22:13 objekte die ich habe was kann ich da
+22:14 
+
+22:15 machen ich kann mir angucken f nach
+22:17 
+
+22:17 gamma und das ist nur funktion von erna
+22:20 
+
+22:20 r
+22:21 
+
+22:21 das ist noch keine reelle zahl aber ich
+22:24 
+
+22:24 nehme diese funktion und leitet die ab
+22:27 
+
+22:27 wonach er kann ja nur nach dem argument
+22:30 
+
+22:30 hier vorne ableiten und werte das ganze
+22:33 
+
+22:33 aus beim parameter wert lambda 0
+22:38 
+
+22:38 dann heißt diese abbildung dann heißt
+22:41 
+
+22:41 die abbildung was ist eigentlich für
+22:45 
+
+22:45 eine abbildung was passiert denn wenn
+22:46 
+
+22:46 ich hier die summe nehme ich nehme die
+22:49 
+
+22:49 summe der von zwei funktionen f + g was
+22:54 
+
+22:54 wäre dann das ergebnis mehr das wäre die
+22:58 
+
+22:58 summe extra ps plus xcover pg
+23:03 
+
+23:03 und wenn ich skalieren würde das f mit
+23:05 
+
+23:05 einem alfa bekäme ich das einfach heraus
+23:08 
+
+23:08 das heißt diese abbildung ist eine
+23:11 
+
+23:11 lineare abbildung wann kann ich von
+23:15 
+
+23:15 lineare abbildung sprechen
+23:16 
+
+23:16 zwischen zwei vector räumen ich kann
+23:19 
+
+23:19 nicht einfach sagen unabhängiges linear
+23:21 
+
+23:21 damit ich sagen kann die abbildung ist
+23:22 
+
+23:22 linear
+23:23 
+
+23:23 sie wissen nur die addition und
+23:25 
+
+23:25 skalierung muss sowohl der definitions
+23:27 
+
+23:27 bereich als auch der zielbereich ein weg
+23:29 
+
+23:29 der raum seien jetzt hier gegeben dann
+23:31 
+
+23:31 heißt die lineare abbildung iks unten da
+23:33 
+
+23:33 mag diese funktion nimmt auf eine reale
+23:36 
+
+23:36 zahl abbild und so gegeben ist die heißt
+23:39 
+
+23:39 das heißt die abbildung richtungs
+23:42 
+
+23:42 ableitung richtung sub leitung entlang
+23:53 
+
+23:53 gamma entlang gamma das ist die kurve am
+23:59 
+
+23:59 punkt psp okay so heißt das ding
+24:05 
+
+24:05 und natürlich ist das das ist natürlich
+24:07 
+
+24:07 eine ableitung sie wirkt wieder drauf da
+24:10 
+
+24:10 könnte man zum beispiel mal die produkt
+24:11 
+
+24:11 regeln nachrichten oder wahrscheinlich
+24:12 
+
+24:12 auf etwa lg wirke das kann ich auch
+24:15 
+
+24:15 definieren bevor wir jetzt dazu gehen da
+24:19 
+
+24:19 die formalen eigenschaften anzugucken
+24:20 
+
+24:20 machen wir es erstmal eine intuition
+24:22 
+
+24:22 ich behaupte das ist das was sie als
+24:25 
+
+24:25 kinder gesehen haben was sie als kind
+24:28 
+
+24:28 als geschwindigkeit wahrgenommen haben
+24:30 
+
+24:30 sind von der schule verformt man hat
+24:33 
+
+24:33 ihnen die geschwindigkeit als vektor
+24:34 
+
+24:34 komponenten kollektion eingetrichtert
+24:37 
+
+24:37 aber das ist das was sie als kinder
+24:40 
+
+24:40 wahrgenommen was haben sie gemacht sie
+24:42 
+
+24:42 haben sich ins auto gesetzt sind entlang
+24:44 
+
+24:44 mit dem auto mit papa oder mama irgendwo
+24:46 
+
+24:46 entlang gefahren und draußen gab es was
+24:50 
+
+24:50 ich am wegesrand bäume die sich in der
+24:52 
+
+24:52 höhe immer geändert haben sie muss ja
+24:54 
+
+24:54 die bäume irgendwie unterscheiden
+24:55 
+
+24:55 die sind durch die funktion aufgegeben
+24:57 
+
+24:57 das ist hier dass der baum so dass der
+24:59 
+
+24:59 baum so hoch und so weiter sie fahren
+25:02 
+
+25:02 also durch den wald und lauter
+25:03 
+
+25:03 unterschiedlich hohen bäumen
+25:05 
+
+25:05 das hat bestimmt arbeit sie können auch
+25:06 
+
+25:06 in anderen wald nehmen sie können in
+25:08 
+
+25:08 beliebigen wald nehmen ja und sie fahren
+25:11 
+
+25:11 durch den wald aber sie gucken nicht wie
+25:14 
+
+25:14 sich die bäume dahinten verändern sie
+25:15 
+
+25:15 gucken nur wie
+25:16 
+
+25:16 bäume dort wo sie gerade sind wie die
+25:18 
+
+25:18 sich verändern und sie laufen durch eine
+25:19 
+
+25:19 höhle
+25:20 
+
+25:20 ja und dann laufen sie durch mehr gucken
+25:23 
+
+25:23 sie immer so über sich immer oberhalb
+25:25 
+
+25:25 ihrer bewegungsbad das ist diese
+25:28 
+
+25:28 hintereinander ausführung sie gucken was
+25:30 
+
+25:30 die werte der umgebung sind der funktion
+25:33 
+
+25:33 aber nur entlang ihrer kurve und dann
+25:36 
+
+25:36 gucken sie sich die bäume sind fünf
+25:37 
+
+25:37 meter hoch zwei meter hoch zweieinhalb 4
+25:40 
+
+25:40 und sie fragen sich wenn ich so entlang
+25:42 
+
+25:42 laufe wie ändert sich die höhe der bäume
+25:45 
+
+25:45 die ich da sehe
+25:46 
+
+25:46 und wenn sie die gleiche strecke laufen
+25:48 
+
+25:48 aber schneller durchlaufen das ist
+25:50 
+
+25:50 eigentlich eine andere kurve aber sagen
+25:51 
+
+25:51 wir dieselbe bahn aber schneller
+25:53 
+
+25:53 dann wird sich das auch schneller ändern
+25:54 
+
+25:54 und jetzt sind sie zu irgendeinem
+25:56 
+
+25:56 parameter wert lambda 0 david klingelt
+25:58 
+
+25:58 ihr wecker herr gucken sie was ist jetzt
+25:60 
+
+25:60 gerade die änderungsraten der baumhöhe
+26:02 
+
+26:02 dort wo ich bin
+26:04 
+
+26:04 natürlich guckt sie eher nicht über sie
+26:06 
+
+26:06 ist und zum fenster raus aber sie
+26:07 
+
+26:07 verstehen schon so und das ist das was
+26:10 
+
+26:10 eine das ist die richtung ableitung der
+26:12 
+
+26:12 wenn sie in die richtung laufen sind sie
+26:14 
+
+26:14 ja was anderes als wenn sie vom gleichen
+26:15 
+
+26:15 punkt aus in eine andere richtung laufen
+26:17 
+
+26:17 würden ja und das codiert diese idee der
+26:21 
+
+26:21 richtung sub leitung entlang einer kurve
+26:24 
+
+26:24 an einem punkt p
+26:26 
+
+26:26 so wie gesagt bevor wir uns jetzt hier
+26:29 
+
+26:29 mit diesen formalen eigenschaften von
+26:32 
+
+26:32 diesem objekt beschäftigen möchte ich
+26:34 
+
+26:34 doch die ja ok folgende bemerkung machen
+26:55 
+
+26:55 und es ist wieder so eine
+26:56 
+
+26:56 terminologischen bemerkung da steckt gar
+27:00 
+
+27:00 nichts drin aber muss es wissen
+27:03 
+
+27:03 terminologie man nennt s&p
+27:12 
+
+27:12 also dieser abbildung man nennt diese
+27:15 
+
+27:15 abbildung 1 unten gab auch den
+27:23 
+
+27:23 tangential vector den cayenne zial
+27:27 
+
+27:27 vector an die kurve gama im punkt p ich
+27:36 
+
+27:36 betone noch im durchlaufenden punkt sie
+27:39 
+
+27:39 können uns natürlich mehr machen
+27:41 
+
+27:41 mit einem punkt den die kurve auch
+27:43 
+
+27:43 durchläuft im durchlaufenden punkt p und
+27:47 
+
+27:47 das ist der volle name dieses objektes
+27:50 
+
+27:50 und wenn sie weg daher denken sie immer
+27:54 
+
+27:54 pfeil aber sie müssen ab jetzt bei
+27:56 
+
+27:56 vector dürfen sich nie wieder pfeilen
+27:58 
+
+27:58 denken sie müssen immer abbildung denken
+27:60 
+
+27:60 was mir einen tangential vector nennen
+28:03 
+
+28:03 ist eine abbildung was für eine
+28:05 
+
+28:05 abbildung dieser abbildung was ist die
+28:08 
+
+28:08 bedeutung die ist logisch gesehen die
+28:10 
+
+28:10 richtungs ableitung ja also die richtung
+28:15 
+
+28:15 ableiten nennt man tangential weckt aber
+28:17 
+
+28:17 damit ist ein tangential vector genau
+28:19 
+
+28:19 das ist einfach eine richtungs ableitung
+28:21 
+
+28:21 man kann es in vielerlei arten
+28:24 
+
+28:24 formulieren die alle ok man könnte auch
+28:27 
+
+28:27 sagen in der differential geometrie die
+28:29 
+
+28:29 wir betreiben überlebt das konzept eines
+28:33 
+
+28:33 sektors in der gestalt einer richtungs
+28:36 
+
+28:36 ableitung vielleicht haben es bisher
+28:39 
+
+28:39 immer so gesehen es gibt für ableitung
+28:40 
+
+28:40 im raum und da können sie irgendwie so
+28:42 
+
+28:42 eine richtung rhein dort haben sie
+28:44 
+
+28:44 ableitung haben richtungen
+28:45 
+
+28:45 das gesamtkonzept ist einrichtungs
+28:47 
+
+28:47 ableitung aber eigentlich umgekehrt die
+28:50 
+
+28:50 richtung ableitung ist das elementare
+28:51 
+
+28:51 konzept und die richtung ist quasi nur
+28:54 
+
+28:54 philosophie die dazugehört aber das ist
+28:56 
+
+28:56 die definition okay das ist der
+28:58 
+
+28:58 tangential vector und wenn sie dafür
+29:01 
+
+29:01 beispiele wollen dann schauen sie bitte
+29:04 
+
+29:04 auf die aufgabe 1 des neuen übungsplatz
+29:07 
+
+29:07 beispiele sie
+29:10 
+
+29:10 aufgabe 1 viertes übungsplatz
+29:26 
+
+29:26 so wir werden uns das jetzt fragen sie
+29:29 
+
+29:29 natürlich ja moment mal das kann er
+29:31 
+
+29:31 nicht ganz falsch gewesen sein mit den
+29:32 
+
+29:32 geschwindigkeits komponenten wo kommen
+29:35 
+
+29:35 jetzt die geschwindigkeits komponenten
+29:36 
+
+29:36 her die man in der schule oder in der
+29:38 
+
+29:38 experimentalphysik vorlesung getroffen
+29:39 
+
+29:39 hat antwort dazu müssen sie sich eine
+29:42 
+
+29:42 karte aussuchen
+29:44 
+
+29:44 sie haben überhaupt keine karte bemüht
+29:46 
+
+29:46 das ist eine völlig auf in der warenwelt
+29:48 
+
+29:48 existierende definition auf der auf der
+29:51 
+
+29:51 ebene wenn sie sich eine karte wählen
+29:53 
+
+29:53 kann man dann in der karte komponenten
+29:55 
+
+29:55 bestimmen aber die hängen dann von der
+29:57 
+
+29:57 karte ab das machen wir nachher noch
+29:60 
+
+29:60 bevor wir dort hinkommen führe ich jetzt
+30:02 
+
+30:02 aber erstmal ein zentrales konzept ein
+30:05 
+
+30:05 nämlich das konzept der tangential räume
+30:09 
+
+30:09 drittens tangential räume und es ist
+30:17 
+
+30:17 wieder ganz einfach definition die menge
+30:24 
+
+30:24 zunächst mal wieder nur eine menge die
+30:26 
+
+30:26 menge mit dem namen t unten pm die heißt
+30:30 
+
+30:30 halt so dass der tangential raum an die
+30:34 
+
+30:34 mannigfaltigkeit m im punkte p okay was
+30:38 
+
+30:38 soll das sein
+30:39 
+
+30:39 als menge ist dass die sammlung aller
+30:42 
+
+30:42 tangential vektoren an den punkt wo bei
+30:46 
+
+30:46 gamma irgendeiner also damit eine
+30:50 
+
+30:50 beliebige oder alle irgend eine glatte
+30:52 
+
+30:52 kurve durch p ist
+30:60 
+
+30:60 gut davon kann man sehr hübsches bild
+31:01 
+
+31:01 meint also das bild vom anfang heute
+31:05 
+
+31:05 morgen da ist irgendwie was ich da so
+31:07 
+
+31:07 zum teil einer kugel so und jetzt wollen
+31:10 
+
+31:10 sie den tangential raum sagen wir mal an
+31:13 
+
+31:13 diesem punkt haben
+31:15 
+
+31:15 was ist der tangential raum gut als
+31:19 
+
+31:19 menge wieder wie instruiert sind wir
+31:22 
+
+31:22 müssen durch diesen punkt erst mal
+31:24 
+
+31:24 irgendeine kurve gamma betrachten und
+31:26 
+
+31:26 danach eine andere kurve noch nach
+31:28 
+
+31:28 anderen dass eine kurve gamma und diese
+31:31 
+
+31:31 kurve gamma jetzt bin ich so versucht
+31:34 
+
+31:34 hier diesen vector diesen tangential
+31:35 
+
+31:35 vector pfeil dran zu malen aber ich tue
+31:38 
+
+31:38 es nicht
+31:41 
+
+31:41 jetzt gibt es hier noch eine andere
+31:43 
+
+31:43 kurve die läuft auch durch diesen punkt
+31:45 
+
+31:45 haben wir mal diese kurve hier auch eine
+31:47 
+
+31:47 kurve gamma die läuft auch durch diesen
+31:49 
+
+31:49 punkt und ich glaube wenn ich noch
+31:51 
+
+31:51 einmal dann hat jeder verstanden als sie
+31:54 
+
+31:54 betrachten jede kurve gamma durch diesen
+31:56 
+
+31:56 punkt also auch die kurve kam er hier
+31:59 
+
+31:59 die jetzt in der richtung läuft die
+32:00 
+
+32:00 läuft der richtungen
+32:01 
+
+32:01 die läuft in der richtung läuft in der
+32:04 
+
+32:04 richtung sie betrachten alle möglichen
+32:06 
+
+32:06 kurven durch den punkt sie betrachten
+32:10 
+
+32:10 allerdings auch wenn ich schon diese
+32:11 
+
+32:11 gelbe kurve hängen gemalt habe
+32:13 
+
+32:13 betrachten sie natürlich mit jeder
+32:15 
+
+32:15 möglichen kurve meine ich natürlich auch
+32:17 
+
+32:17 kurven die zwar wird hier die blaue
+32:19 
+
+32:19 genau den gleichen pfad läuft wie die
+32:23 
+
+32:23 gelbe aber doppelt so schnell
+32:25 
+
+32:25 ok sie können ja genau den gleichen weg
+32:28 
+
+32:28 fahren aber doppelt so schnell ist die
+32:31 
+
+32:31 grundlage der deutschen autoindustrie
+32:35 
+
+32:35 wenn wir jetzt wirklich von der
+32:38 
+
+32:38 geschwindigkeit reden dass wenn ich
+32:40 
+
+32:40 jetzt diese vektoren ein malen würde die
+32:42 
+
+32:42 tangential vector nicht tust aber nicht
+32:44 
+
+32:44 denn dem sektor ist ja gar kein pfeil
+32:47 
+
+32:47 aber wenn ich hier einmal würde dann
+32:49 
+
+32:49 wäre der pfeil der geschwindigkeits
+32:51 
+
+32:51 wegfall der gelben kurve der wäre nur
+32:53 
+
+32:53 halb so lang an diesem punkt wie der
+32:55 
+
+32:55 geschwindigkeits vector der blauen kurve
+32:58 
+
+32:58 okay wenn sich jetzt vorstellen dass sie
+33:01 
+
+33:01 durch einen punkt durchlaufen hiermit
+33:03 
+
+33:03 allen kurven aber jede kurve auch mit
+33:06 
+
+33:06 jeder geschwindigkeit dann kriegen sie
+33:09 
+
+33:09 insgesamt alle tangential vektoren an
+33:12 
+
+33:12 dem punkt und wenn
+33:13 
+
+33:13 jetzt als pfeile malen würde was ich ja
+33:16 
+
+33:16 nicht kann denn das ist doch kein pfeil
+33:18 
+
+33:18 das ist eine abbildung aber wenn ich sie
+33:20 
+
+33:20 als pfeile malen würde dann bekämen sie
+33:23 
+
+33:23 als endpunkt dieser pfeile die gesamte
+33:26 
+
+33:26 tangential ebene an dieses objekt kann
+33:30 
+
+33:30 sich das vorstellen
+33:31 
+
+33:31 in die kür die steht längeren sektoren
+33:33 
+
+33:33 in eine richtung kriegen sie indem sie
+33:34 
+
+33:34 die kurven schneller durchlaufen und in
+33:37 
+
+33:37 andere richtungen gingen sie vektoren
+33:38 
+
+33:38 nehmen sie andere kurven wählen ist klar
+33:41 
+
+33:41 so und ich male wie gesagt ich weiß auch
+33:44 
+
+33:44 dass wir ganz versucht er jetzt die
+33:46 
+
+33:46 seile dran zumal aber wir malen sie
+33:47 
+
+33:47 nicht dran denn es ist eben nicht dieses
+33:49 
+
+33:49 extrinsische bild es ist dieses
+33:52 
+
+33:52 intrinsische wir müssen gar keinen bezug
+33:54 
+
+33:54 nehmen auf den umgebenden raum und den
+33:57 
+
+33:57 preis den er dafür zahlen auf den
+34:00 
+
+34:00 umgebenden raum keinen bezug nehmen zu
+34:02 
+
+34:02 müssen das ist dass wir nicht mehr über
+34:04 
+
+34:04 vector pfeile reden sondern den vektor
+34:07 
+
+34:07 oder die richtungen verstehen als
+34:09 
+
+34:09 richtungs ableitungen okay ich könnte
+34:12 
+
+34:12 jetzt also jedes element hier drin
+34:14 
+
+34:14 nehmen und auf eine beliebige funktionen
+34:16 
+
+34:16 die hier drauf definiert ist er für sie
+34:18 
+
+34:18 wieder eine temperaturverteilung oder so
+34:20 
+
+34:20 wirken lassen und dann würde es eben in
+34:23 
+
+34:23 dieser form hier wirken
+34:25 
+
+34:25 okay aber auf jede temperaturverteilung
+34:28 
+
+34:28 nicht auf eine bestimmt auf jede würde
+34:30 
+
+34:30 ist zu wirken und das definiert damit
+34:32 
+
+34:32 die abbildung wir kommen machen gleich
+34:36 
+
+34:36 noch weitere bemerkungen dazu so jetzt
+34:39 
+
+34:39 hab ich da schon wieder so verdächtig
+34:40 
+
+34:40 durchaus fragen so weit
+34:55 
+
+34:55 bitte dass sie dreidimensional denken
+34:57 
+
+34:57 und nicht
+35:13 
+
+35:13 legen sie einen tank mit der unendlichen
+35:15 
+
+35:15 geschwindigkeit ist das so eine sache
+35:17 
+
+35:17 weil dann müsste ja hier irgendwie
+35:21 
+
+35:21 unendlich rauskommen
+35:23 
+
+35:23 und da ist nicht nur stetig
+35:24 
+
+35:24 differenziert gewesen aber mit großer
+35:26 
+
+35:26 geschwindigkeit
+35:29 
+
+35:29 bitte was die kugel trinken sie keine
+35:39 
+
+35:39 also wenn ich sie jetzt abstrakt fragen
+35:42 
+
+35:42 wird an diesem punkt im raum weil es
+35:43 
+
+35:43 meine finger spitze ist welche
+35:45 
+
+35:45 geschwindigkeiten gibt es dort das heißt
+35:47 
+
+35:47 jemand mal geschwindigkeit ist eine
+35:49 
+
+35:49 eigenschaft einer kurve richtig
+35:50 
+
+35:50 und ja es sind all die geschwindigkeiten
+35:52 
+
+35:52 die sie durch kursen durch diesen punkt
+35:54 
+
+35:54 realisieren können da fliegt also der
+35:56 
+
+35:56 eine mit seiner rakete durch geschickte
+35:58 
+
+35:58 anderen mit seiner rakete durch der
+35:59 
+
+35:59 andere fliegt so wodurch und die
+36:01 
+
+36:01 gesamtheit all dieser geschwindigkeiten
+36:03 
+
+36:03 ja physikalisch gedacht das ist der
+36:07 
+
+36:07 tangential raum aber technisch gedacht
+36:10 
+
+36:10 sind die richtung sub leitungen entlang
+36:13 
+
+36:13 dieser kurven wirken und auf beliebige
+36:14 
+
+36:14 funktionen
+36:18 
+
+36:18 ok also es ist okay okay wir haben hier
+36:23 
+
+36:23 alles okay von also die intuition die
+36:26 
+
+36:26 ich hingehen ich glaube dass alles was
+36:27 
+
+36:27 ich gesagt habe korrekt ist und
+36:29 
+
+36:29 eigentlich nicht fehlinterpretiert
+36:30 
+
+36:30 werden kann aber wie es immer so ist
+36:32 
+
+36:32 alle meine worte sind natürlich nur
+36:34 
+
+36:34 schönes gerede
+36:35 
+
+36:35 das ist ein tangential vector diese
+36:38 
+
+36:38 abbildung punkt sie werden sich daran
+36:40 
+
+36:40 gewöhnen
+36:41 
+
+36:41 ok und sie werden auch sehen sobald wir
+36:43 
+
+36:43 karten haben da kommen wir gleich dazu
+36:45 
+
+36:45 werden sagt ach so und hoffen nicht wenn
+36:47 
+
+36:47 ja dann verstehen sie mich ganz eine
+36:49 
+
+36:49 ganze menge aber gut machen wir mal an
+36:51 
+
+36:51 der stelle weiter entschulden
+36:52 
+
+36:52 ich glaube sie nicht ganz befriedigt
+36:54 
+
+36:54 aber kommt später gut so jetzt habe ich
+36:59 
+
+36:59 hier schon wieder so ganz verdächtig
+37:01 
+
+37:01 geschrieben tangential raum das ist so
+37:04 
+
+37:04 eine menge und dabei in der theorie
+37:07 
+
+37:07 struktur fanatiker sind unterscheiden
+37:09 
+
+37:09 wir das jetzt erst mal die sammlung all
+37:11 
+
+37:11 dieser tangential vektoren an einem
+37:14 
+
+37:14 punkt nicht weg du hier und vector da
+37:17 
+
+37:17 sie sehen das ist zum beispiel ein so
+37:19 
+
+37:19 eine sache
+37:20 
+
+37:20 unsere vektoren hier die leben alle die
+37:23 
+
+37:23 haben alle auf punkt p wenn wir von den
+37:26 
+
+37:26 sektoren mit einem anderen auf punkt
+37:28 
+
+37:28 reden das ist eine ganz andere menge mit
+37:30 
+
+37:30 denen wir zunächst mal gar nichts zu tun
+37:32 
+
+37:32 ok erst mal einen punkt so und jetzt ist
+37:36 
+
+37:36 die frage kann ich eigentlich zwei
+37:38 
+
+37:38 tangential vektoren die diese abbildung
+37:41 
+
+37:41 sind kann ich die eigentlich addieren
+37:43 
+
+37:43 und die antwort ist ja das kann ich
+37:46 
+
+37:47 ich mache nämlich jetzt das folgende ich
+37:49 
+
+37:49 definiere jetzt eine addition die heißt
+37:54 
+
+37:54 testen plus und festziehen plus nimmt
+37:58 
+
+37:58 jetzt zwei tangential vektoren am p und
+38:04 
+
+38:04 bastelt daraus einen neuen tangential
+38:07 
+
+38:07 vector am punkt p wie tut es das
+38:10 
+
+38:10 eigentlich müsste ich ihnen nur sagen es
+38:12 
+
+38:12 tut das punktweise bringe ich sage ihnen
+38:15 
+
+38:15 es tut das nur punkt weiß und was sagen
+38:17 
+
+38:17 sie mir dann dann sagen sie mir aha dann
+38:20 
+
+38:20 nehmen sie also so ein ickx und dann
+38:22 
+
+38:22 nehmen sie so ein y
+38:24 
+
+38:24 das sind elemente hier drin gut sie
+38:27 
+
+38:27 können natürlich sagen sie nähmen ein
+38:28 
+
+38:28 xcover uneinig stelter so heißen die
+38:31 
+
+38:31 kameraden die darin leben
+38:33 
+
+38:33 das sind beides
+38:34 
+
+38:34 tangential vektoren an diesem punkt p ok
+38:38 
+
+38:38 und sie sagen deren summe die wollen sie
+38:42 
+
+38:42 jetzt definieren
+38:43 
+
+38:43 jetzt sage ich ihnen sie tun das
+38:46 
+
+38:46 punktweise das heißt das addieren
+38:49 
+
+38:49 abbildungen was müssen sie machen wenn
+38:51 
+
+38:51 sie eine abbildung punkt die diese
+38:53 
+
+38:53 operation punktweise definieren wollen
+38:56 
+
+38:56 was müssen wir dann sagen ganz genauso
+39:09 
+
+39:10 es ist prima und jetzt nur noch die
+39:11 
+
+39:11 frage was ist in diesem kontext was ich
+39:14 
+
+39:14 für diese abbildungen 1 punkt richtig
+39:19 
+
+39:19 perfekt ja natürlich sehr sehr gut sehr
+39:22 
+
+39:22 gut dass in abbildung die fressen
+39:25 
+
+39:25 funktionen und spucken reellen zahlen
+39:27 
+
+39:27 aus sehr schön auf den kann ich nämlich
+39:29 
+
+39:29 addieren und punktweise heißt hier
+39:32 
+
+39:32 funktionsweise okay also dieses ding
+39:35 
+
+39:35 werfe ich auf einen punkt nämlich auf
+39:38 
+
+39:38 das was sie wirken das war ja wieder
+39:40 
+
+39:40 eine funktion sein
+39:41 
+
+39:41 und jetzt muss ich eine reelle zahl
+39:43 
+
+39:43 konstruieren das mache ich punktweise
+39:46 
+
+39:46 xmp lasse ich erst mal auf f wirken oder
+39:50 
+
+39:50 ich hab's meisten die klammer
+39:51 
+
+39:51 geschrieben ist wirkt direkt auf f und
+39:53 
+
+39:53 dann kommt plus das ist ein plus das
+39:55 
+
+39:55 plus auf den reellen zahlen sind das da
+39:57 
+
+39:57 ist ja eine reale zahl und versteht hier
+39:59 
+
+39:59 extel da am pff wirken ganz genau das
+40:03 
+
+40:03 ist punktweise und genau so können wir
+40:07 
+
+40:07 hier definieren ein festmahl das soll
+40:11 
+
+40:11 jetzt tatsächlich auch wieder so eine
+40:13 
+
+40:13 skalierung sein also ich will hier eine
+40:16 
+
+40:16 reale zahl mit einem vector einbeck
+40:20 
+
+40:20 generellen zahl skalieren und das mache
+40:23 
+
+40:23 ich auch punktweise das schreibe ich
+40:25 
+
+40:25 jetzt gar nicht hingeht das haben sie ja
+40:26 
+
+40:26 schon verstanden
+40:28 
+
+40:28 ok punktweise ja und die ahnung schon
+40:33 
+
+40:33 worauf das hinausläuft man kann nun
+40:35 
+
+40:35 wieder zeigen haben wir mal satt
+40:39 
+
+40:39 das wenn ich jetzt die an einem punkt
+40:42 
+
+40:42 die sammlung aller richtungs ableitungen
+40:45 
+
+40:45 nehme die wir auch tangential vektoren
+40:47 
+
+40:47 nennen und ich statte diese menge aus
+40:51 
+
+40:51 mit diesem typ von addition und diesen
+40:53 
+
+40:53 coup von es multiplikation oder
+40:55 
+
+40:56 skalierung dann ist das wieder ein reger
+40:58 
+
+40:58 ein airbag torraum
+41:00 
+
+41:00 ok also auf jeden fall bilden diese
+41:08 
+
+41:08 richtungs ableitungen einen vektor raum
+41:11 
+
+41:11 denn mit diesen operationen erfüllen sie
+41:15 
+
+41:15 die eigenschaften eines vector raums und
+41:17 
+
+41:17 dieses ding nennt man den tangential
+41:19 
+
+41:19 vector raum an der stelle p das ist ja
+41:25 
+
+41:25 tangential vector raum an der stelle p
+41:28 
+
+41:28 ok und das heißt wenn sie in der physik
+41:31 
+
+41:31 geschwindigkeiten addieren
+41:33 
+
+41:33 an einem an einem und demselben punkt
+41:35 
+
+41:35 natürlich nur dann benutzen sie diese
+41:39 
+
+41:39 kasten plus funktion die vector addition
+41:43 
+
+41:43 von vektoren an der gleichen stelle ist
+41:46 
+
+41:46 dieses kasten plus das ist es okay hier
+41:53 
+
+41:53 lassen wir natürlich auch wieder den
+41:54 
+
+41:54 kasten in zukunft weg das ist jetzt nur
+41:56 
+
+41:56 um sich klar zu machen das ist nicht das
+41:58 
+
+41:58 plus auf das ist aber durch dieses plus
+41:60 
+
+41:60 auf r letztlich oft auf dieses bus auf
+42:03 
+
+42:03 zurückgeführt fragen so weit so sie
+42:13 
+
+42:13 werden den tieferen sinn dieser
+42:14 
+
+42:14 abstraktion die hier vorgenommen wurde
+42:17 
+
+42:17 gleich erkennen
+42:19 
+
+42:19 also bis jetzt ist es ziemlich abstrakt
+42:21 
+
+42:21 und wahrscheinlich ziemlich anders als
+42:23 
+
+42:23 alles was sie über geschwindigkeit
+42:24 
+
+42:24 gedacht haben außerdem gesagt im
+42:27 
+
+42:27 kindesalter aber das haben sie vergessen
+42:29 
+
+42:29 jetzt machen wir den kontakt mit dem was
+42:33 
+
+42:33 sie über geschwindigkeiten wissen oder
+42:35 
+
+42:35 zu wissen glauben nämlich dass wenn sie
+42:37 
+
+42:37 in einer bestimmten karte sind dass sie
+42:40 
+
+42:40 doch die geschwindigkeit verstehen
+42:41 
+
+42:41 können als eine sammlung von komponenten
+42:44 
+
+42:44 dieser geschwindigkeit ja das wäre dann
+42:46 
+
+42:46 der dass topel der der geschwindigkeiten
+42:49 
+
+42:49 xyz richtung oder sowas aber was wir
+42:52 
+
+42:52 dazu machen
+42:53 
+
+42:53 es ist eine karte einführen dass der
+42:55 
+
+42:55 nächste schritt
+43:17 
+
+43:17 ford ist situation betrachtet auf karten
+43:27 
+
+43:27 ebene
+43:34 
+
+43:34 so gut wie machen wir das jetzt
+43:38 
+
+43:38 wir schreiben uns einfach mal hin was
+43:41 
+
+43:41 wir haben also wir wollen dieses objekt
+43:46 
+
+43:46 ex kp diese richtung sub leitung entlang
+43:49 
+
+43:49 gama im coupé oder genannt der
+43:51 
+
+43:51 tangential vector an gamma im p auf
+43:55 
+
+43:55 karten ebene verstehen ja gut wenn man
+44:05 
+
+44:05 das erst einmal klarmachen was sind die
+44:06 
+
+44:06 abstrakten zutaten die zutaten sind
+44:10 
+
+44:10 zunächst mal eine kurve gama
+44:12 
+
+44:12 die läuft auf der mannigfaltigkeit okay
+44:18 
+
+44:18 und da mal wieder eine funktion aber es
+44:22 
+
+44:22 ist eine ziemlich billy also sind
+44:23 
+
+44:23 beliebige glatter funktion auf die das
+44:24 
+
+44:24 wirken kann
+44:25 
+
+44:25 okay das war sie diese situation aber
+44:28 
+
+44:28 wenn wir jetzt ja noch eine karte wählen
+44:31 
+
+44:31 wir wollen sie in einer karte betrachtet
+44:33 
+
+44:33 da wäre uns eine karte aus unserem
+44:36 
+
+44:36 schönen glatten atlas es ist aber
+44:39 
+
+44:39 natürlich geschickt wenn der punkt an
+44:41 
+
+44:41 dem wir die situation betrachten wollen
+44:43 
+
+44:43 der möge natürlich innerhalb des karten
+44:47 
+
+44:47 gebietes liegen ja macht keinen sinn
+44:49 
+
+44:49 wenn wir das woanders betrachten also
+44:51 
+
+44:51 noch mal wildtiere mannigfaltigkeit
+44:55 
+
+44:55 kurve pulverdampf und dass hier das sei
+45:02 
+
+45:02 jetzt dass karten gebiete und sie wissen
+45:05 
+
+45:05 dass karten gebiet das lässt sich dann
+45:07 
+
+45:07 abbilden in den r hoch de
+45:10 
+
+45:10 und da liegt das dann jetzt irgendwie da
+45:12 
+
+45:12 als ex von u
+45:13 
+
+45:13 als teilmenge des rvd und genauso wird
+45:17 
+
+45:17 natürlich die kurve punkt für punkt
+45:19 
+
+45:19 abgebildet da liegt okay die karte da
+45:25 
+
+45:25 betrachte ich natürlich hier nur noch
+45:27 
+
+45:27 ein karten gebiet um in dem das landet
+45:30 
+
+45:30 und sie wissen wenn das jetzt ganz genau
+45:33 
+
+45:33 nehmen müssen wir dann auch hier
+45:34 
+
+45:34 einschränken den parameterbereich das
+45:37 
+
+45:37 ist ja das urbild von bezüglich gama und
+45:40 
+
+45:40 die einschränkung der funktion uhr auf
+45:43 
+
+45:43 diesem bereich gut geschenkt ich lasse
+45:45 
+
+45:45 es mal diese und
+45:46 
+
+45:46 muss weg das ist ein bisschen verwirrend
+45:48 
+
+45:48 das ist die situation so und jetzt haben
+45:51 
+
+45:51 sie aber und das ist natürlich der gag
+45:53 
+
+45:53 an der karte
+45:54 
+
+45:54 sie haben ja eine karte abbildung ex die
+45:56 
+
+45:56 prinz ihr und danach iks von u das ist
+45:58 
+
+45:58 eine teilmenge des rd die verstehen sie
+46:00 
+
+46:00 sehr gut und jetzt können sie natürlich
+46:02 
+
+46:02 hier die kartendarstellung der kurve iks
+46:06 
+
+46:06 nach kammerangaben und hier die
+46:08 
+
+46:08 kartendarstellung der funktion f nach x1
+46:13 
+
+46:13 ok kurs des schiffes angemalt im atlas
+46:18 
+
+46:18 temperaturverteilung des meeres ein
+46:20 
+
+46:21 gemaltes atlas wahrer kurs des schiffes
+46:23 
+
+46:23 ware temperaturverteilung jeweils in der
+46:26 
+
+46:26 welt okay das ist hier die frage
+46:32 
+
+46:32 das ist diese logik das sind unsere
+46:35 
+
+46:35 zutaten und jetzt wollen wir diesen
+46:38 
+
+46:38 kameraden verstehen in bezug auf diese
+46:41 
+
+46:42 zutaten und ich glaube da könnte ich mir
+46:47 
+
+46:47 eine neue tafel
+46:57 
+
+46:57 na ja wir können hier anfangen und wir
+47:01 
+
+47:01 fangen wir doch hier links an
+47:03 
+
+47:03 so wie mache ich das jetzt ja ganz
+47:05 
+
+47:05 einfach die einfachsten rechnungen oder
+47:08 
+
+47:08 fast alle rechnungen das ist so ein tipp
+47:10 
+
+47:10 können sie machen indem sie vorne
+47:12 
+
+47:12 anfangen lauter gleichheitszeichen
+47:14 
+
+47:14 schreiben ja also ich möchte was möchte
+47:18 
+
+47:18 ich verstehen ich möchte das objekt xk
+47:20 
+
+47:20 und besser kennenlernen
+47:24 
+
+47:24 also nehme ich mir sehr und was mache
+47:26 
+
+47:26 ich damit ja gut was kann ich machen
+47:29 
+
+47:29 zunächst mal nichts was ist die
+47:30 
+
+47:30 definition der ich lerne es besser
+47:32 
+
+47:32 kennen wenn ich auf eine beliebige
+47:33 
+
+47:33 funktion f wirken lasse warum lernen ist
+47:37 
+
+47:37 dann besser kennen dann habe ich ja per
+47:39 
+
+47:39 definitionem weiß ich das ist f nach
+47:43 
+
+47:43 gama ich gucke mir an die die temperatur
+47:45 
+
+47:45 sich ändert bin ich der kurve gamma
+47:47 
+
+47:47 entlang laufen wie sich ändert muss ich
+47:49 
+
+47:49 das ergebnis ableiten das ist ja nur
+47:51 
+
+47:51 noch eine funktion von erna und das leid
+47:56 
+
+47:56 ich ab an der stelle lambda 0
+47:58 
+
+47:58 ja wenn ich hier lambda null schreibt
+47:60 
+
+47:60 dann muss ich mir vorher klar gemacht
+48:02 
+
+48:02 haben dann muss dieses land da nur das
+48:04 
+
+48:04 muss der parameter wert sein an denen
+48:07 
+
+48:07 die kurve bei diesem punkt p vorbei
+48:09 
+
+48:09 kommt muss ich immer den geeigneten
+48:11 
+
+48:11 parameter wert einsetzen
+48:13 
+
+48:13 gut ist die definition das ist unsere
+48:17 
+
+48:17 erste bekanntschaft mit dem objekt wie
+48:19 
+
+48:19 mache ich jetzt nähere bekanntschaft
+48:21 
+
+48:21 wieder zwei arten ich kann entweder auf
+48:23 
+
+48:23 dieses bild gucken und sehe h&m nach
+48:27 
+
+48:27 kammer das ist ja dieser weg hier erst
+48:30 
+
+48:30 dann ff nach gemacht das ist dieser weg
+48:33 
+
+48:33 ich könnte natürlich genauso diesen weg
+48:36 
+
+48:36 gehen und käme auch zum ziel dass die
+48:39 
+
+48:39 grafische argumentation
+48:40 
+
+48:40 ich kann es aber auch all gebracht
+48:42 
+
+48:42 argumentieren ich sage da steht erst
+48:43 
+
+48:43 nach gamma da in klammern strich von
+48:46 
+
+48:46 lambda 0 gut dasteht also auch f nach -1
+48:52 
+
+48:52 nach iks nach dammer das ist zunächst
+48:55 
+
+48:55 mal so geklammert das ja einfach nur die
+48:57 
+
+48:57 identität eingeschoben da passiert nix
+48:60 
+
+48:60 aber weil die hintereinander ausführung
+49:02 
+
+49:02 dieser cola weil der assoziativ ist ist
+49:05 
+
+49:05 das natürlich das gleiche wie f nach iks
+49:07 
+
+49:07 invers geklammert nach
+49:11 
+
+49:11 kramer fertig ableiten an der stelle am
+49:15 
+
+49:15 30
+49:16 
+
+49:16 natürlich das ist natürlich fx invers
+49:20 
+
+49:20 nach iks nach dammer klar was wir hier
+49:23 
+
+49:23 im bild im diagramm ablesen muss
+49:25 
+
+49:25 natürlich auch all gebracht um sie zu
+49:26 
+
+49:26 begründen sein da steht also was bis
+49:29 
+
+49:29 jetzt passiert gar nichts
+49:30 
+
+49:30 ja wir massieren die definition ja gut
+49:35 
+
+49:35 das haben ja komplizierter gemacht wie
+49:37 
+
+49:37 so lernen wir das ding besser kennen
+49:38 
+
+49:38 wenn es komplizierter ist naja diese
+49:41 
+
+49:41 kameraden hier die verstehe ich
+49:43 
+
+49:43 eigentlich ganz gut
+49:45 
+
+49:45 und den möchte ich jetzt mal namen geben
+49:48 
+
+49:48 beziehungsweise dem da muss man nicht
+49:50 
+
+49:50 unbedingt einen namen geben aber dem
+49:53 
+
+49:53 jeweiligen namen der kartendarstellung
+49:55 
+
+49:55 der kurve oder das ist die karten
+49:57 
+
+49:58 darstellen der kurve und die will ich
+49:60 
+
+49:60 mal klein q nennen
+50:02 
+
+50:02 die heißt klein co klein co was ist denn
+50:08 
+
+50:08 das für ein objekt das ist ein objekt wo
+50:10 
+
+50:10 kommt er her
+50:11 
+
+50:11 das kommt aus dem ausland teil menge der
+50:15 
+
+50:15 reellen zahlen und geht in den r hoch de
+50:18 
+
+50:18 also ich nehme es jetzt noch nicht genau
+50:19 
+
+50:19 wo genau es herkommt das entscheiden ist
+50:21 
+
+50:21 es kommt aus einem teilbereich der
+50:23 
+
+50:23 realen zahlen und landet immer hoch de
+50:26 
+
+50:26 und dieser kamera hat es nach iks
+50:28 
+
+50:28 investors ist die kartendarstellung der
+50:31 
+
+50:31 funktion soll ich dir jetzt nennen
+50:33 
+
+50:33 erfurt oder so irgendetwas oder egal er
+50:38 
+
+50:38 food kann man machen wer aber nicht so
+50:40 
+
+50:40 häufig gebrauchen aber das entscheidende
+50:42 
+
+50:42 ist dieses ding das geht vom erhofft in
+50:45 
+
+50:45 die reellen zahlen und klar die kann ich
+50:48 
+
+50:48 hintereinander auswerten
+50:49 
+
+50:49 das heißt was hier übrig geblieben ist
+50:51 
+
+50:51 das ist eine leistungskurs aufgabe
+50:54 
+
+50:54 mathematik nehmen oder naja gut
+50:57 
+
+50:57 einführungskurs aufgabe ja abbildung von
+50:60 
+
+50:60 ehrhoff denen er hoch hintereinander
+51:03 
+
+51:03 ausführung und dann die ableitung der
+51:06 
+
+51:06 hintereinander ausführung also captain
+51:08 
+
+51:08 regel richtig aber einfach die
+51:10 
+
+51:10 stinknormale ketten regel und die
+51:13 
+
+51:13 schreiben wir jetzt mal hin und da
+51:14 
+
+51:14 müssen wir ein bisschen aufpassen bei
+51:15 
+
+51:15 dieser ketten regel das haben sie auf
+51:17 
+
+51:17 dem ersten übungsplatz geübt du musst da
+51:21 
+
+51:21 auch aufpassen was ist denn da die
+51:23 
+
+51:23 äußere ableitung das
+51:25 
+
+51:25 wer die äußere ableitung ja äußere
+51:28 
+
+51:28 ableitung da können sie ableiten in die
+51:30 
+
+51:30 j richtung also das jrk hirt vom rfb das
+51:35 
+
+51:35 hat komponenten jetzt gleich eins bis
+51:38 
+
+51:38 jetzt gleich den sie leiten um die lotte
+51:40 
+
+51:40 richtung ab dieses objekt also schreibe
+51:42 
+
+51:42 ich mal hin erst nach singers wird in
+51:46 
+
+51:46 die lotterie abgeleitet nachdem sie
+51:50 
+
+51:50 abgeleitet haben es bedarf eigentlich
+51:54 
+
+51:54 nicht der erwähnung aber wir machen es
+51:56 
+
+51:56 mal ganz deutlich
+51:57 
+
+51:57 nachdem sie abgeleitet haben dann dürfen
+52:01 
+
+52:01 sie einen punkt einsetzen wo sich
+52:03 
+
+52:03 auswerten welcher punkt ist dass laura
+52:06 
+
+52:06 nach ketten regel ist dass dieser andere
+52:09 
+
+52:09 funktion hier aufgeworfen also iks nach
+52:13 
+
+52:13 gamma auf lambda 0 geworfen
+52:17 
+
+52:17 so ist das und wie geht die ketten regel
+52:20 
+
+52:20 weiter
+52:21 
+
+52:21 naja jetzt sagt die ketten regel macht
+52:23 
+
+52:23 jetzt die innere ableitung die landet
+52:26 
+
+52:26 aber mrd
+52:27 
+
+52:27 er hat also auch verschiedene
+52:29 
+
+52:29 komponenten und diese komponenten die
+52:33 
+
+52:33 werden alle abgeleitet das sagt die
+52:35 
+
+52:35 ketten regeln und die komponente wie
+52:38 
+
+52:38 wird jeweils summiert mit diesem ding da
+52:40 
+
+52:40 steht also ich hier kommt erstmal mal
+52:43 
+
+52:43 dass das mal auf den reellen zahlen
+52:46 
+
+52:46 dann steht da iks nach ghana das ding
+52:49 
+
+52:49 hat aber eine jurte komponente da steht
+52:53 
+
+52:53 sie und das und diese lotte komponente
+52:59 
+
+52:59 wenn ich sie ausgerechnet habe die wird
+53:02 
+
+53:02 abgeleitet dass diese ableitung wieder
+53:05 
+
+53:05 die wird abgeleitet und das ganze wird
+53:08 
+
+53:08 nach der ableitung aus gewährt gewertet
+53:11 
+
+53:11 am punkt lambda 0
+53:15 
+
+53:15 das ist die multidimensionale ketten
+53:18 
+
+53:18 regel so ist er halt ist nicht einfach
+53:22 
+
+53:22 ok alles richtig gemacht
+53:26 
+
+53:26 ich hoffe
+53:28 
+
+53:28 so jetzt ist das natürlich unglaublich
+53:32 
+
+53:32 hässlich was da steht und das verwandeln
+53:35 
+
+53:35 wir jetzt durch eine kleine kosmetische
+53:36 
+
+53:36 operation was unglaublich hübsches als
+53:42 
+
+53:42 erstmalig das folgende das war's eine
+53:44 
+
+53:44 multiplikation auf den realen sein also
+53:46 
+
+53:46 diese slot und dieses j darüber
+53:47 
+
+53:47 summieren wir natürlich nach der sum
+53:49 
+
+53:49 aktions konvention aufgabenblatt 1
+53:52 
+
+53:52 richtig da steht eine große summe über
+53:54 
+
+53:54 jj gleich eins bis dimension m drüber
+53:57 
+
+53:57 und das war es aber eben dieser satz
+53:60 
+
+53:60 wird immer nur eine reelle
+54:01 
+
+54:01 multiplikation ich kann also diesem
+54:02 
+
+54:02 zweiten faktor den kann ich auch nach
+54:04 
+
+54:04 vorne nehmen das ist also iks nach gamma
+54:07 
+
+54:07 diäten komponente
+54:09 
+
+54:09 aber das ist ja diäten komponente hier
+54:12 
+
+54:12 außen weil ich hier bei den e
+54:15 
+
+54:15 die idee mix diäten komponente der
+54:19 
+
+54:19 koordinaten abbildung nehmen kann kann
+54:21 
+
+54:21 also die kurve nehmen und betrachten was
+54:23 
+
+54:23 die idee koordinate dieser kurve ist ja
+54:27 
+
+54:27 dass das kartenbild der kurve und das
+54:30 
+
+54:30 kann ich ableiten dass genau das gleiche
+54:31 
+
+54:31 was da stand an der stelle land das ich
+54:34 
+
+54:34 habe dass das j in jj wird ich habe dass
+54:39 
+
+54:39 die j von hier hier an hüpfen lassen
+54:41 
+
+54:41 weil das das ist was die otto komponente
+54:44 
+
+54:44 von dieser abbildung ist wenn ihnen das
+54:47 
+
+54:47 nicht klar ist meinen sich ein bild im
+54:48 
+
+54:48 diagramm ist immer nicht glas fragen sie
+54:51 
+
+54:51 mich okay wir haben dieses ding jetzt
+54:53 
+
+54:53 kommt dieses mal provokativ gesetz der
+54:55 
+
+54:55 multiplikation das ist kein problem
+54:57 
+
+54:57 und dieses objekt hier das schreiben wir
+55:00 
+
+55:00 jetzt ein bisschen hübscher marx nach
+55:03 
+
+55:03 gamma von lambda 0
+55:05 
+
+55:05 das ist nix von gamma von lampenöl aber
+55:07 
+
+55:07 gamma verlangter 0 ist p das heißt hier
+55:10 
+
+55:10 das wird ausgesperrt und an der stelle
+55:12 
+
+55:12 iks von p da steht also der j angewendet
+55:16 
+
+55:16 auf f nach nix invers und ausgewertet
+55:20 
+
+55:20 wird das ganze nach dem sie die
+55:21 
+
+55:21 ableitung gebildet haben am punkt ex von
+55:23 
+
+55:23 t so und jetzt hatte ich sie auf dem
+55:28 
+
+55:28 ersten übungsplatz gebeten niemals zu
+55:33 
+
+55:33 schreiben demnach den xj demnach der
+55:36 
+
+55:36 epsilon j und so weiter oder die nach
+55:38 
+
+55:38 die x-te nach die y für diese partiellen
+55:41 
+
+55:41 ab
+55:41 
+
+55:41 leitung und sie sehen ich befolge meinen
+55:43 
+
+55:43 eigenen rad dia partielle ableitung geht
+55:45 
+
+55:45 in bezüglich des schotten eintrages
+55:48 
+
+55:48 dieser funktion alles gut aber jetzt
+55:52 
+
+55:52 nämlich zum anlass das ja hier diese
+55:56 
+
+55:56 funktion oft ist die abstrakte
+55:57 
+
+55:57 temperaturverteilung der warenwelt aber
+55:60 
+
+55:60 diese sixx ist ja die karten abbildung
+56:02 
+
+56:02 der speziellen karte die ich gewählt
+56:05 
+
+56:05 habe und ich dreiste mich jetzt diesen
+56:08 
+
+56:08 ganzen objekt hier einen einfacheren
+56:11 
+
+56:11 namen zu geben und diese einfache name
+56:14 
+
+56:14 ist der folgende dieses objekt heißt
+56:16 
+
+56:17 will er durch den xj so so heißt das
+56:34 
+
+56:34 ding und jetzt warum macht es sinn des
+56:36 
+
+56:36 sozialen fünf minuten wieder warum was
+56:39 
+
+56:39 ist indes so zu nennen
+56:41 
+
+56:41 na ja alle informationen die da oben
+56:43 
+
+56:44 drin steht steht da unten drin wenn ich
+56:46 
+
+56:46 in so ein objekt nenne da wissen sie wie
+56:48 
+
+56:48 die funktion heißt sie wissen wie die
+56:49 
+
+56:49 karte abbildung heißt sie wissen in
+56:53 
+
+56:53 welche richtung sie ableiten müssen hier
+56:55 
+
+56:55 haben sie noch mal die karten
+56:56 
+
+56:56 abbildungen sie nehmen dieses p also
+56:58 
+
+56:58 wenn sie dieses objekt sehen und wollen
+57:01 
+
+57:01 damit rechnen
+57:02 
+
+57:02 dann verfallen sie nicht in den reflex
+57:05 
+
+57:05 zu sagen ist ja ganz einfach ich leite f
+57:07 
+
+57:07 nach der variablen xj ab wenn sie dieses
+57:11 
+
+57:11 objekt sehen ersetzen sie es erst mal
+57:14 
+
+57:14 technisch durchdacht und damit dürfen
+57:16 
+
+57:16 sie dann rechnen nach den regeln der
+57:20 
+
+57:20 differenzierung im hoch de okay das ist
+57:24 
+
+57:24 ein neues objekt das ist ein neues
+57:26 
+
+57:26 symbol okay so und dieses symbol ist von
+57:34 
+
+57:34 außerordentlicher nützlichkeit vor allem
+57:37 
+
+57:37 weil wir dieses symbol und das hier
+57:39 
+
+57:39 heißt so damit meine ich ganz genau
+57:41 
+
+57:41 dasselbe demnach die xj unten p wenn ich
+57:49 
+
+57:49 das f hintendran schreibe das haben sie
+57:51 
+
+57:51 aber auch immer schon so gemacht ja sie
+57:53 
+
+57:53 können das 11 hinten dran schreiben oder
+57:55 
+
+57:55 ebenso waren in diesen zählern
+57:56 
+
+57:56 reinschreiben das soll das gleiche
+57:58 
+
+57:58 bedeuten warum lege ich da drauf so wert
+58:01 
+
+58:01 naja das da ist irgendwie eine hübsche
+58:03 
+
+58:03 notation und wir werden aber nachher das
+58:08 
+
+58:08 für alle fw betrachten und dann dass es
+58:10 
+
+58:10 auch mal weglassen und dann würde ich
+58:12 
+
+58:12 diesen operator betrachten
+58:14 
+
+58:14 ok und dann würde ich das erklärt haben
+58:16 
+
+58:16 so dieses objekt haben wir hier
+58:21 
+
+58:21 und ja das ist da hinten das ding jetzt
+58:25 
+
+58:25 sage ich ihnen aber noch hierzu was
+58:28 
+
+58:28 gucken sie sich mal den kerl hier an xj
+58:32 
+
+58:32 gamma was ist denn dieses xj nach ganz
+58:35 
+
+58:35 normal ist nach gamal haben wir kuh
+58:37 
+
+58:37 genannt
+58:38 
+
+58:38 das war das kartenbild der kurse haben
+58:41 
+
+58:41 sie in der physik eigentlich bis jetzt
+58:43 
+
+58:43 immer so gemacht haben welche kurven in
+58:44 
+
+58:44 karten betrachtet und die lotte
+58:47 
+
+58:47 komponente von dem ding ist das cool j
+58:49 
+
+58:49 das heißt was hier innerhalb der
+58:51 
+
+58:51 klammern steht das ist cool j
+58:54 
+
+58:54 und das hängt von irgendeinem lambda ab
+58:56 
+
+58:56 das heißt insgesamt mit diesen setzungen
+58:60 
+
+58:60 haben wir jetzt gut abgeleitet sie
+59:05 
+
+59:05 nehmen die j komponente der
+59:07 
+
+59:07 kartendarstellung der funktion leiten
+59:09 
+
+59:09 die ab und dann bestimmen sie den wert
+59:12 
+
+59:12 an der stelle
+59:13 
+
+59:13 lambda 0 und dann steht damals die nach
+59:20 
+
+59:20 unten
+59:22 
+
+59:22 agierend auf das f und jetzt gehen wir
+59:26 
+
+59:26 noch einmal ganz zurück zum anfang und
+59:29 
+
+59:29 dann sehen sie da steht ex kp auf f ist
+59:34 
+
+59:34 gleich lalalala ich schon hier ist noch
+59:36 
+
+59:36 mein job ist gleich bla bla bla bla bla
+59:38 
+
+59:38 agierend auf f und natürlich können wir
+59:41 
+
+59:41 auch hier um eine klammer machen dann
+59:45 
+
+59:45 was du es erst diesen großen apparate
+59:48 
+
+59:48 durch summation hier über die j und
+59:50 
+
+59:50 wirkten dann auf das f was ist das fazit
+59:57 
+
+59:57 das fazit ist dass dieses objekt iks
+60:00 
+
+60:00 unten gamati unsere richtung sub leitung
+60:03 
+
+60:03 entlang gama im p lässt sich schreiben
+60:07 
+
+60:07 als die ableitung der juden koordinate
+60:12 
+
+60:12 der kurve in der karte jede einzelne
+60:17 
+
+60:17 komponente wird separat abgeleitet mal
+60:23 
+
+60:23 demnach der xj unten p und das ist ein
+60:29 
+
+60:29 differential operator der auf funktionen
+60:32 
+
+60:32 auf der mannigfaltigkeit wirken kann
+60:37 
+
+60:37 ja und da haben was diese kameraden hier
+60:41 
+
+60:41 die heißen die komponenten dass da sind
+60:46 
+
+60:46 also definition sind die komponenten der
+60:52 
+
+60:52 des tangential wächst ich schreibe jetzt
+60:55 
+
+60:55 mal ja das tangential weg das könntest
+61:01 
+
+61:01 auch den geschwindigkeits vector nennen
+61:02 
+
+61:02 und die richtung supplies als sind die
+61:04 
+
+61:04 komponenten des tangential weg durchs
+61:08 
+
+61:08 gamma am punkt bezüglich komponenten
+61:14 
+
+61:14 gibt es immer nur bezüglich bezüglich
+61:16 
+
+61:16 der karte komponenten bezüglich der
+61:24 
+
+61:24 karte iks das sind die dinger
+61:30 
+
+61:30 wenn das die komponenten des tangential
+61:33 
+
+61:33 vector sind sie mir nur zahlen
+61:36 
+
+61:36 eine 57 3 was ist denn das ja wenn sie
+61:45 
+
+61:45 einheit weglassen ist die basis vektoren
+61:48 
+
+61:48 ein einheits weg da bräuchten sie eine
+61:51 
+
+61:51 metric oder zumindest mal eine norm um
+61:53 
+
+61:53 zu sagen was das ist aber es sind die
+61:56 
+
+61:56 basis vektoren es kennen sich aus der
+61:58 
+
+61:58 linearen algebra oder sie haben den weg
+61:60 
+
+61:60 torraum da wählen sie eine basis und
+62:02 
+
+62:02 sobald sie eine basis gewählt haben hat
+62:05 
+
+62:05 ein abstrakter vector hat komponenten
+62:08 
+
+62:08 bezüglich dieser basis das kennen sie
+62:10 
+
+62:10 oder genau das ist es das ist es und das
+62:14 
+
+62:14 hier das ist für j gleich ein system
+62:22 
+
+62:22 sind das die basis die von der karte dix
+62:33 
+
+62:33 induzierte induzierten basis vektoren
+62:41 
+
+62:41 okay sind die infizierten bahn stecken
+62:45 
+
+62:45 sie wissen wenn sie hinweg daran haben
+62:47 
+
+62:47 da können sie eine basis wählen so wie
+62:49 
+
+62:49 sie lustig sind solange seine basis ist
+62:51 
+
+62:51 oder einige welt können sie auch eine
+62:52 
+
+62:52 andere wählen
+62:53 
+
+62:53 jetzt scheint es hier so als wäre für
+62:55 
+
+62:55 unsere tangential vektoren als gäb's
+62:57 
+
+62:57 also eine ausgezeichnete basis
+62:59 
+
+62:59 ja aber die ist nur ausgezeichnet wenn
+63:02 
+
+63:02 ich eine bestimmte karte gewählt wenn
+63:04 
+
+63:04 ich eine andere karte gewählt hätte
+63:06 
+
+63:06 hätte ich eine andere ausgezeichnete
+63:07 
+
+63:07 basis und damit aber der
+63:10 
+
+63:10 geschwindigkeits vector in der warenwelt
+63:13 
+
+63:13 also erfährt jetzt ein auto vorbei
+63:15 
+
+63:15 das hat ja die geschwindigkeit dies hat
+63:17 
+
+63:17 den geschwindigkeits weg du denn es hat
+63:19 
+
+63:19 damit der geschwindigkeit zweck der das
+63:22 
+
+63:22 abstrakte objekt in der warenwelt dass
+63:25 
+
+63:25 dafür nicht abhängen davon welche karte
+63:27 
+
+63:27 ich gewählt habe
+63:28 
+
+63:28 das heißt aber wenn sich für eine andere
+63:31 
+
+63:31 karte eine andere basis ergibt für
+63:34 
+
+63:34 diesen tangential raum dann müssen sich
+63:36 
+
+63:36 auch die komponenten ändern
+63:38 
+
+63:38 das kennen wir auch aus der linearen
+63:40 
+
+63:40 algebra ein und der gleiche vector hat
+63:42 
+
+63:42 in bezug auf verschieden
+63:44 
+
+63:44 die basen verschiedene komponenten und
+63:46 
+
+63:46 hier ist es ganz genauso
+63:48 
+
+63:48 und wenn sie in der physik eine karte
+63:50 
+
+63:50 gewählt haben dann hat ihre
+63:51 
+
+63:51 geschwindigkeit in gottes namen konkrete
+63:54 
+
+63:54 komponenten die sie dann von mir und
+63:56 
+
+63:56 auch als vektor opel oder was auch immer
+63:59 
+
+63:59 schreiben können und die kriegen sie
+64:01 
+
+64:01 natürlich indem sie die bahn kurve coo
+64:03 
+
+64:03 von lambda nehmen und jede einzelne
+64:05 
+
+64:06 komponente der bahn kurve separat nach
+64:09 
+
+64:09 dem bahn parameter ableiten richtig so
+64:12 
+
+64:12 macht man das doch das haben sie gemacht
+64:14 
+
+64:14 oder ok genau und das ist genau das hier
+64:18 
+
+64:18 haben sie die dinger zurück aber die
+64:20 
+
+64:20 lektion die wir hier lernen ist doch
+64:22 
+
+64:22 eine ganz wichtige die lektion ist
+64:24 
+
+64:24 nämlich das ist noch nicht der
+64:26 
+
+64:26 geschwindigkeits weg war
+64:28 
+
+64:28 das sind ja nur die komponenten die
+64:30 
+
+64:30 machen ja gar keinen sinn diese
+64:32 
+
+64:32 komponenten ohne dass ich weiß in bezug
+64:34 
+
+64:34 auf welcher basis sie den gelten sollen
+64:37 
+
+64:37 wir haben hier an dieser kleinen
+64:39 
+
+64:39 harmlosen rechnung indem wir gesagt wir
+64:41 
+
+64:41 wollen mal schauen wie dieses objekt
+64:43 
+
+64:43 hier aussieht das wollen wir besser
+64:44 
+
+64:44 kennenlernen haben wir auf einen schlag
+64:46 
+
+64:46 identifiziert was dieser sektor
+64:49 
+
+64:49 insgesamt ist dann ist ein echtes
+64:50 
+
+64:50 gleichheitszeichen dieses ding kann
+64:52 
+
+64:52 wirken auf eine funktion weil das darauf
+64:54 
+
+64:54 eine funktion wirken kann ja wenn man in
+64:57 
+
+64:57 einem schlag identifiziert was ist für
+64:59 
+
+64:59 einen abstrakten einen konkret also
+65:01 
+
+65:01 einen weg weg bei der warenwelt was sind
+65:04 
+
+65:04 die komponenten in bezug auf welcher
+65:05 
+
+65:05 basis und das ist ganz entscheidend und
+65:08 
+
+65:08 nach der pause die wir jetzt vielleicht
+65:10 
+
+65:10 so gute zehn minuten machen werden sagen
+65:13 
+
+65:13 wir mal exakt zehn minuten werden wir
+65:17 
+
+65:17 darauf zurückkommen was passiert jetzt
+65:18 
+
+65:18 eigentlich wenn ich die karte wechseln
+65:21 
+
+65:21 was passiert mit der basis und was
+65:23 
+
+65:23 passiert mit den komponenten und das von
+65:25 
+
+65:25 allerhöchster wichtigkeit nach der pause
+65:28 
+
+65:28 also 17 nach bitte 17 85
+65:40 
+
+65:40 karten wechseln
+65:47 
+
+65:47 also nochmal was war unsere situation
+65:51 
+
+65:51 was wir unsere situation wir hatten uns
+65:54 
+
+65:54 interessiert für das objekt ex unten
+65:59 
+
+65:59 dammer am punkt p wir haben uns
+66:00 
+
+66:00 interessiert für den tangential vector
+66:02 
+
+66:02 an die kurve gama im punkt hatten aber
+66:05 
+
+66:05 auch er nicht festgestellt sind
+66:07 
+
+66:07 definiert es handelt sich hier um eine
+66:09 
+
+66:09 abbildung nämlich um eine richtungs
+66:12 
+
+66:12 ableitung die frist eine die frist eine
+66:17 
+
+66:17 glatte funktion und weist ihnen eine
+66:21 
+
+66:21 reelle zeit zu und wir hatten dieses
+66:23 
+
+66:23 objekt verstanden und zwar durch wahl
+66:26 
+
+66:26 einer karte wahl der karte dix das war
+66:33 
+
+66:33 eine bestimmte kart wii kommt natürlich
+66:35 
+
+66:35 aus dem glatten atlas hatten wir dieses
+66:38 
+
+66:38 objekt verstanden plötzlich als die
+66:41 
+
+66:41 ableitung der einzelnen komponenten ich
+66:44 
+
+66:44 hatte eben cool j genannt ich nenne cool
+66:47 
+
+66:47 j jetzt mal noch mal beim vollen namen q
+66:49 
+
+66:49 j war die lotte komponente der kurve
+66:53 
+
+66:53 nämlich in diesen koordinaten iks dieses
+66:56 
+
+66:56 ding haben wir abgeleitet an welchem
+66:59 
+
+66:59 punkt naja am richtigen punkt am
+67:01 
+
+67:01 richtigen parameter wert lambda 0 ich
+67:04 
+
+67:04 habe den mann ein bisschen kleiner dran
+67:05 
+
+67:05 das war nämlich der wo die kurve durch
+67:09 
+
+67:09 den punkt okay das waren also die
+67:14 
+
+67:14 ableitung der einzelnen komponenten der
+67:18 
+
+67:18 darstellung der kurve in der karte aber
+67:20 
+
+67:20 das kann natürlich nicht der vector sein
+67:22 
+
+67:22 können das waren erst die komponenten
+67:24 
+
+67:24 und wir hatten hier eine basis demnach
+67:27 
+
+67:27 die xj am punkt p und sie wissen dieses
+67:33 
+
+67:33 objekt da kann ich jetzt eine glatte
+67:36 
+
+67:36 funktion hintendran schreiben und dann
+67:38 
+
+67:38 wissen sie wie das objekt definiert ist
+67:39 
+
+67:39 hier können sie auch eine glatte
+67:41 
+
+67:41 funktion hintendran schreiben es gibt
+67:43 
+
+67:43 eben für jede glatte funktion können sie
+67:45 
+
+67:45 das machen also wir können jetzt mal
+67:47 
+
+67:47 hier in geld was dabei schreiben was sie
+67:50 
+
+67:50 sich dann wieder weg denken können
+67:51 
+
+67:51 deswegen mache ich ihm gelb das gelbe
+67:54 
+
+67:54 können sie wahlweise an oder ausschalten
+67:55 
+
+67:55 das soll gelten für jede glatte funktion
+67:59 
+
+67:59 wenn sie die hinschreiben haben sie eine
+68:01 
+
+68:01 gleichung zwischen reellen zahlen wenn
+68:04 
+
+68:04 das öfter steht steht links und rechts
+68:05 
+
+68:05 des gleichheitszeichen es eine reale
+68:07 
+
+68:07 zahl und wenn sie das nicht hin
+68:09 
+
+68:09 schreiben steht links und rechts des
+68:10 
+
+68:10 gleichheitszeichen es eine abbildung
+68:13 
+
+68:13 nämlich von c unendlich m
+68:15 
+
+68:15 nach den reellen zahlen so also ich war
+68:18 
+
+68:19 einer karte konnten sie den so
+68:21 
+
+68:21 darstellungen sind die komponenten der
+68:22 
+
+68:22 kurve in dieser karte
+68:24 
+
+68:24 das ist die die basis hier sie können
+68:27 
+
+68:27 das aber auch schreiben durchwahl einer
+68:29 
+
+68:29 anderen karte
+68:30 
+
+68:30 sie wählen jetzt eine karte frau y ok
+68:35 
+
+68:35 und wie sieht es dann aus naja dann
+68:37 
+
+68:37 müssen sie natürlich die komponenten der
+68:39 
+
+68:39 kurve in diesen psion koordinaten
+68:42 
+
+68:42 betrachten an der richtigen stelle
+68:45 
+
+68:45 ableiten und dann steht aber hier
+68:47 
+
+68:47 demnach die oops i lon jp
+68:53 
+
+68:53 selbstverständlich das hängt ja von der
+68:54 
+
+68:54 karten wahl ab und das ist also zweimal
+68:58 
+
+68:58 das gleiche abstrakte objekt gut man
+69:01 
+
+69:01 kann das ich wünschte dass es noch mal
+69:02 
+
+69:02 weg dann kann ich hier hübscher erklären
+69:05 
+
+69:05 ja das entscheiden ist das wahre objekt
+69:11 
+
+69:11 ist hier auf zwei arten dargestellt aber
+69:13 
+
+69:13 natürlich muss damit die ganz linke
+69:16 
+
+69:16 seite und die ganz rechte seite die
+69:18 
+
+69:18 müssen natürlich das gleiche sein
+69:19 
+
+69:19 sie repräsentieren ja nur in
+69:22 
+
+69:22 verschiedenen karten das gesamtobjekt
+69:25 
+
+69:25 insgesamt okay so und jetzt würde ich
+69:29 
+
+69:29 aber doch ganz gerne wissen nehmen wir
+69:31 
+
+69:31 mal an wir fangen mit seiner karte xa
+69:33 
+
+69:33 nun habe ich da die komponenten der
+69:35 
+
+69:35 kurve in der karte iks das was man
+69:37 
+
+69:37 üblicherweise macht und mal angenommen
+69:40 
+
+69:40 es ist jemand so gemein und gibt ihm nur
+69:42 
+
+69:42 die karten wechsel funktionär sagt er
+69:44 
+
+69:44 mit der karte und jetzt habe ich einen
+69:46 
+
+69:46 wechsel funktion bekennt die komponenten
+69:48 
+
+69:48 des rektors in der einen karte und die
+69:52 
+
+69:52 frage ist wie lauten denn dann die
+69:54 
+
+69:54 komponenten des rektors in der anderen
+69:57 
+
+69:57 karte wenn ich den folge karten wechsel
+69:60 
+
+69:60 funktionen zur verfügung stelle
+70:02 
+
+70:02 das ist eine ganz natürliche frage und
+70:04 
+
+70:04 in der praxis braucht die auf wenn sie
+70:06 
+
+70:06 sagen ich habe hier ein problem dass es
+70:07 
+
+70:07 irgendwie aufgrund seiner physikalischen
+70:09 
+
+70:09 natur würden sich hier jetzt polar co
+70:12 
+
+70:12 die daten anbieten haben sie irgendeine
+70:14 
+
+70:14 situation wir können haben irgendwelche
+70:15 
+
+70:15 vektoren gegeben mit ihren komponenten
+70:17 
+
+70:17 in seiner katholischen koordinaten und
+70:19 
+
+70:19 jetzt sagen sie aber das problem dass
+70:22 
+
+70:22 bietet sich echt anders im solar
+70:23 
+
+70:23 koordinaten zu lösen aber sie müssen
+70:25 
+
+70:25 quasi ihre vector komponenten allem
+70:27 
+
+70:27 rechneten polar koordinaten ja bezüglich
+70:31 
+
+70:31 der polar koordinaten karte es ist ein
+70:33 
+
+70:33 ganz praktisches problem gut und wir
+70:36 
+
+70:36 lösen das ist ein für alle mal in dem
+70:39 
+
+70:39 wir nämlich sehen wie so vector
+70:40 
+
+70:40 komponenten transformieren
+70:42 
+
+70:42 der trick wird der folgende sein das ist
+70:46 
+
+70:46 ein vector komponenten mal basis der
+70:48 
+
+70:48 soko vector komponenten mal basis wenn
+70:51 
+
+70:51 ich auf beiden seiten die gleiche basis
+70:53 
+
+70:53 hätte dann könnte ich die komponenten
+70:55 
+
+70:55 vergleichen
+70:56 
+
+70:56 richtig warum warum sind zwei vektoren
+71:00 
+
+71:00 die die gleichen komponenten bezüglich
+71:02 
+
+71:02 der selben basis haben bereits gleich
+71:08 
+
+71:08 bitte bitte ja warum warum weist genau
+71:15 
+
+71:15 das gleiche ist ja mathematisches
+71:17 
+
+71:17 argument was ist eine basis linear
+71:20 
+
+71:20 unabhängiges erzeugenden system was ist
+71:23 
+
+71:23 wichtig erzeugung system oder lineare
+71:24 
+
+71:24 unabhängig damit ich das schließen kann
+71:26 
+
+71:26 weil sie schließen will
+71:28 
+
+71:28 berlin ja unabhängig natürlich dass ich
+71:30 
+
+71:30 genau der sinn hinter der definition von
+71:32 
+
+71:32 denen ja unabhängig
+71:33 
+
+71:33 wenn sie sich jemals gefragt haben wie
+71:35 
+
+71:35 man auf so eine definition von denen ja
+71:36 
+
+71:36 unabhängig kombi der ist mit diesem
+71:38 
+
+71:38 modell amt ist also im land erst alle 0
+71:39 
+
+71:39 und so weiter und so fort stellen sich
+71:41 
+
+71:41 mal die frage in diesem kontext dann
+71:42 
+
+71:42 sehen sie genau das ist der sinn warum
+71:44 
+
+71:44 sie liegen ja unabhängig wollen damit
+71:46 
+
+71:46 sie bei gleicher basis und dann können
+71:48 
+
+71:48 sie dann die komponenten vergleichen
+71:50 
+
+71:50 okay das machen wir jetzt und ja das
+71:53 
+
+71:53 kann ich aber nicht denn hier habe ich
+71:54 
+
+71:54 diese basis stehen die nach de xin da
+71:57 
+
+71:57 die basis demnach die y j so gut da
+71:60 
+
+71:60 rechnen wir doch erst mal die basis um
+72:01 
+
+72:01 wenn wir die basis um gerechnet haben
+72:03 
+
+72:03 kommt der rest ein umrechnen der basis
+72:06 
+
+72:06 also ziel drücke
+72:12 
+
+72:12 die y j nach dammer durch die strich
+72:22 
+
+72:22 durch die xj nach gamma strich und basis
+72:30 
+
+72:30 die die taten wechsel abbildung wechsel
+72:36 
+
+72:36 abbildung wie ist er von der einen der
+72:38 
+
+72:38 anderen karte leider ist irgendetwas
+72:39 
+
+72:39 vips in bars oder sowas nebst nachwuchs
+72:43 
+
+72:43 invers aus dass unser ziel so strategie
+72:49 
+
+72:49 wie ich ja hier ist schon erläutert habe
+72:56 
+
+72:56 drücke erstmal die basis dts nach dem
+72:59 
+
+72:59 exil war demnach die xj am punkte die
+73:04 
+
+73:04 wollen wir jetzt erstmal schreiben als
+73:07 
+
+73:07 demnach der ypsilon j und dann können
+73:09 
+
+73:09 wir weiter sehen
+73:10 
+
+73:10 ok so wie machen wir das was ist dieses
+73:12 
+
+73:12 objekt alte regel das spielen mit dem
+73:15 
+
+73:15 objekt müssen wir gucken was ist die
+73:17 
+
+73:17 definition des objekts wir verstehen das
+73:19 
+
+73:19 objekt ganz gut wenn wir es wirken
+73:21 
+
+73:21 lassen auf ein f aber vorsicht es ist
+73:24 
+
+73:24 eine funktion auf der ganzen
+73:28 
+
+73:28 mannigfaltigkeit wenn es aufwirft was
+73:31 
+
+73:31 ist die definition von diesem ding haben
+73:34 
+
+73:34 wir eben hängen geschrieben ich habe ihm
+73:36 
+
+73:36 gesagt das ist dieses wunderschöne
+73:37 
+
+73:37 symbol
+73:38 
+
+73:38 da gibt es ein denn da steht unten was
+73:42 
+
+73:42 und dann steht da eine funktion das ist
+73:45 
+
+73:45 das f und dann steht hier nach irgendwas
+73:48 
+
+73:48 hoch - 1 klammer zu
+73:50 
+
+73:50 und dann wird das ausgewertet bei
+73:52 
+
+73:52 irgendwas am punkte
+73:54 
+
+73:54 irgendwas so analog was ist dass
+73:58 
+
+73:58 irgendwas da dieses j das kommt ihr hin
+74:01 
+
+74:01 diese six kommt hier hin dass es kommt
+74:04 
+
+74:04 noch mal hierhin und das p/e von hier
+74:07 
+
+74:07 unten kommt dorthin
+74:08 
+
+74:08 das ist das objekt per definition ok
+74:11 
+
+74:11 wird nur einmal vorführen sie sehen das
+74:14 
+
+74:14 objekt bitte nicht zu sprengen schlüssel
+74:18 
+
+74:18 springen wie auch immer nicht zu schnell
+74:20 
+
+74:20 schließen
+74:21 
+
+74:21 das ist das ding
+74:24 
+
+74:24 ach so ja gut das ist es jetzt was
+74:27 
+
+74:27 wollten wir doch mal gleich wir wollten
+74:29 
+
+74:29 ja zu einer anderen karte übergehen
+74:31 
+
+74:31 und jetzt haben wir ja schon ganz gute
+74:33 
+
+74:33 erfahrungen gemacht könnte jetzt wieder
+74:34 
+
+74:34 diagramme mal aber wir haben ja ganz
+74:36 
+
+74:36 gute erfahrungen gemacht da kommt jetzt
+74:38 
+
+74:38 nur die karte iks vor
+74:39 
+
+74:39 wir werfen jetzt einfach mal die karte y
+74:42 
+
+74:42 hier rein und wie werfe ich dir ein
+74:45 
+
+74:45 ich darf auf jeden fall hier steht jetzt
+74:50 
+
+74:50 im ixs invers irgendwie will ich dazu
+74:52 
+
+74:52 psion ihn war's dann schreibe ich doch
+74:54 
+
+74:54 mal hin macht gleich wieder rückgängig
+74:55 
+
+74:55 ja taschenspielertrick und dann muss da
+74:59 
+
+74:59 noch mal das ixs invers stehen wenn man
+75:01 
+
+75:01 zu xp und eigentlich ist alles immer
+75:05 
+
+75:05 noch genau beim alten oder aha aber
+75:09 
+
+75:09 jetzt habe ich hier natürlich wieder
+75:10 
+
+75:10 diesen fall diesem wunderschönen fall
+75:13 
+
+75:13 dass ich jetzt hier wieder so klammern
+75:15 
+
+75:15 kann
+75:16 
+
+75:16 und jetzt machen wir uns noch mal kurz
+75:18 
+
+75:18 klar was das jetzt für objekte sind die
+75:20 
+
+75:20 wir da gerade angucken
+75:21 
+
+75:21 also das erste ist eine abbildung f nach
+75:26 
+
+75:26 y mas die geht von einem teil des
+75:30 
+
+75:30 erhofften um mich dem ypsilon der
+75:32 
+
+75:32 ypsilon karte geht in die reellen zahlen
+75:34 
+
+75:34 und diesen kamera hat ja auch den kennen
+75:37 
+
+75:37 wir doch das ist noch eine karten
+75:38 
+
+75:38 wechsel abbildung die geht vom erhofft
+75:41 
+
+75:41 denen er hoch de also grob sie wissen
+75:44 
+
+75:44 ihr geht nur von bereichen ist auch dem
+75:45 
+
+75:45 bereiche des rfds geht mir darum dass
+75:48 
+
+75:48 wir uns hier mit der mathematik
+75:50 
+
+75:50 auskennen wir können einfach ableiten
+75:52 
+
+75:52 okay was ist das hier multidimensionale
+75:56 
+
+75:56 ketten regel 20
+75:57 
+
+75:57 nur jetzt ist er nicht nur noch
+75:60 
+
+75:60 einfacher ableiten nach einem parameter
+76:01 
+
+76:01 ärgern ist die otto ableitung also ich
+76:04 
+
+76:04 mich die leute sind die ableitung in die
+76:05 
+
+76:05 j richtung gut rechnen wir weiter wie
+76:08 
+
+76:08 geht das
+76:09 
+
+76:09 sowas ist die äußere ableitung dass es
+76:13 
+
+76:14 irgendwie dieses ding und dann kommt
+76:16 
+
+76:16 nachher das ding naja fangen wir mal an
+76:18 
+
+76:18 die äußere ableiten und die ist dell
+76:21 
+
+76:21 waren sie so entsteht auch j erinnern
+76:24 
+
+76:24 sich vorher haben wir das ganze ging
+76:25 
+
+76:25 nach strich abgeleitet und trotzdem das
+76:28 
+
+76:28 vordere in eine richtung das machen wir
+76:30 
+
+76:30 jetzt wieder wieder das ist dell mjf
+76:33 
+
+76:33 nach y hoch - 1
+76:36 
+
+76:36 wo werden wir das aus na ja
+76:38 
+
+76:38 selbstverständlich bei y nach iks invers
+76:42 
+
+76:42 von iks von p aber das ist natürlich
+76:44 
+
+76:44 oops i lon von p das sieht schon
+76:47 
+
+76:47 ziemlich gut aus so und jetzt kommt mal
+76:49 
+
+76:49 jetzt haben nämlich hier ketten rede
+76:52 
+
+76:52 und jetzt dieses m geht nämlich mit der
+76:55 
+
+76:55 m hten komponente von diesem kameraden
+76:57 
+
+76:57 hier
+76:58 
+
+76:58 das wirkt also auf y m nach iks invers
+77:04 
+
+77:04 ich könnte auch das buch im heer außen
+77:06 
+
+77:06 dran schreiben das macht keinen
+77:07 
+
+77:07 unterschied ok und die wird jetzt aber
+77:10 
+
+77:10 abgeleitet nach der juden komponente djk
+77:13 
+
+77:13 die innere ableitung ist die direkte art
+77:16 
+
+77:16 der ableitung sieht ist einfach die
+77:18 
+
+77:18 multidimensionale ketten regel und wo
+77:20 
+
+77:20 wir hatten wir den außen an den werden
+77:22 
+
+77:22 wir auch wieder ausblicks von p so
+77:27 
+
+77:27 selbstverständlich dass j ist frei da
+77:29 
+
+77:29 wird diskutiert es gibt nur ein j aber
+77:32 
+
+77:32 wie immer bei der ketten regel oder wie
+77:33 
+
+77:33 immer in allen meinen formeln wenn ein
+77:36 
+
+77:36 index oben einen index unten steht ist
+77:38 
+
+77:38 da eine suchaktion impliziert dass steht
+77:41 
+
+77:41 also wie als würde eine summe m gleich
+77:43 
+
+77:43 eins bis dimension
+77:45 
+
+77:45 davor stehen erstes übungsplatz
+77:47 
+
+77:47 formations konvention ist nur kurz
+77:49 
+
+77:49 schreibweise weil wir nach der formel
+77:50 
+
+77:50 haben mit ganz vielen wiederholten
+77:52 
+
+77:52 indizes und da wäre die tafel schon voll
+77:54 
+
+77:54 wenn wir die summen zeichen hin
+77:55 
+
+77:55 geschrieben haben deswegen lassen wir
+77:56 
+
+77:56 die alle weg so ist jeder einverstanden
+77:60 
+
+77:60 dass das die anwendung der
+78:01 
+
+78:01 multidimensionalen ketten regel auf
+78:03 
+
+78:03 diesem fall ist er muss noch ein
+78:06 
+
+78:06 bisschen üben bis man es kann aber das
+78:08 
+
+78:08 ist ja zugegebenermaßen erstsemester
+78:10 
+
+78:10 stoffen physiker oder also wollte
+78:12 
+
+78:12 dimensionale ketten regel ja nehmen sich
+78:15 
+
+78:15 mein ingenieur buch also die brauchen
+78:18 
+
+78:18 wir laufen ohne die geht es nicht das
+78:20 
+
+78:20 können sie sich noch mal nachgucken hat
+78:22 
+
+78:22 mir auf dem übungsplatz so ja bitte das
+78:29 
+
+78:29 kleine m
+78:30 
+
+78:30 das ist der das ist die ableitung in die
+78:33 
+
+78:33 ämter richtung und die ging die ente
+78:35 
+
+78:35 komponente das ist weil diese funktion
+78:38 
+
+78:38 diese bereiche haben muss ich darüber
+78:41 
+
+78:41 summieren
+78:44 
+
+78:44 also was sie eigentlich jetzt verlangen
+78:46 
+
+78:46 von mir ist der beweis der ketten regel
+78:48 
+
+78:48 für multidimensionale funktionen
+78:51 
+
+78:51 eben weil das ist die gesamt funktion
+79:04 
+
+79:04 die sie ableiten die sie jetzt verstehen
+79:06 
+
+79:06 als eine komposition von dem teil und
+79:08 
+
+79:08 dem teilen ok und die ableitung die auf
+79:12 
+
+79:12 alles wirkt wie kommt in der ketten
+79:14 
+
+79:14 regel vorbei der inneren ableitung so
+79:19 
+
+79:19 ist dass wir hatten eben den fall da war
+79:21 
+
+79:21 nicht die ableitung in lotte richtung
+79:23 
+
+79:23 weil es andere funktion sondern er hat
+79:24 
+
+79:24 die ableitung nach einem parameter den
+79:26 
+
+79:26 strich der kam dann aber auch hinten
+79:30 
+
+79:30 vorbei der inneren ableitung also das
+79:32 
+
+79:32 was auf alles wirkt steht immer an der
+79:34 
+
+79:34 inneren ableitung und der rest der ist
+79:36 
+
+79:36 dann so über summiert mit dem
+79:37 
+
+79:37 wiederholten in exter wird ab summiert
+79:39 
+
+79:39 so funktioniert die ketten regel wenn
+79:43 
+
+79:43 sie wollen kann ich irgendwann mal ein
+79:45 
+
+79:45 exkurs machen und ein schönes bild malen
+79:47 
+
+79:47 zur ketten regel so aber am besten
+79:48 
+
+79:48 gucken sich in der ersten ingenieurs
+79:50 
+
+79:50 buch ja das versteht jeder
+79:51 
+
+79:51 das ist lang nein meint weiß ich sagt
+79:58 
+
+79:58 gar nichts mehr
+79:59 
+
+79:59 ok also nehmen sie sich zum beispiel ein
+80:02 
+
+80:02 sehr gutes buch ist pablo tabula
+80:04 
+
+80:04 mathematik für ingenieure
+80:06 
+
+80:06 naturwissenschaftler und alle
+80:07 
+
+80:07 andersgläubigen und da kommen sie rein
+80:09 
+
+80:09 das ist wahrscheinlich irgendwie band 2
+80:10 
+
+80:10 1 3 oder sowas und da stand es nach
+80:13 
+
+80:13 wunderbar mit 1000 beispielen also das
+80:15 
+
+80:15 muss man können das ist jetzt hier schon
+80:17 
+
+80:17 weil er so viel verzierung dabei ist das
+80:19 
+
+80:19 y von premiere sind alles so mächtig aus
+80:22 
+
+80:22 ist alles ganz einfach ja dass die
+80:24 
+
+80:24 anwendung auf diesen fall gut so ok
+80:28 
+
+80:28 jetzt haben wir das ding deutlichen
+80:29 
+
+80:29 umgeformt jetzt erkennen wir aber
+80:32 
+
+80:32 natürlich aha das denn hier ist
+80:36 
+
+80:36 natürlich nichts anderes als die nach
+80:41 
+
+80:41 dem pcie lawn m an der stelle p und
+80:47 
+
+80:47 dieses ding hier erkennen wir natürlich
+80:49 
+
+80:49 sofort das ist nichts anderes als den
+80:51 
+
+80:51 ich kann dieses eben hier rein springen
+80:53 
+
+80:53 lassen
+80:55 
+
+80:55 nach die xj auch an der stelle
+80:59 
+
+80:59 und dazwischen steht einmal real is mal
+81:02 
+
+81:02 und da ist immer noch die summation das
+81:09 
+
+81:09 heißt wenn wir das fsf wollte ich
+81:10 
+
+81:10 eigentlich immer grün malen
+81:19 
+
+81:19 das heißt wenn ich das jetzt wieder per
+81:22 
+
+81:22 multiple kommunikativ gesetzt hier
+81:25 
+
+81:25 umschreibe steht da die y m nach djp mal
+81:33 
+
+81:33 die nach der ypsilon mvp wirkend auf f
+81:39 
+
+81:39 ja und da haben sie ihre
+81:41 
+
+81:41 transformations- formel dieser dieses
+81:47 
+
+81:47 objekt der schotte der jr basis weg
+81:51 
+
+81:51 beschreiben ruhig mal dran was das ist
+81:53 
+
+81:53 das ist der j von der basis von der
+81:58 
+
+81:58 karte entschuldigung von der karadzics
+82:04 
+
+82:04 induzierte basis vector welchen weg
+82:11 
+
+82:11 torraums eigentlich basis weg bei
+82:14 
+
+82:14 welchen weg torraums des tangential
+82:19 
+
+82:19 viktor p und jetzt kommt der
+82:21 
+
+82:21 gleichheitszeichen gleichheitszeichen
+82:23 
+
+82:23 gleichheitszeichen ich habe das öfter
+82:25 
+
+82:25 nach rechts rausgeschoben ich habe es
+82:26 
+
+82:26 hier auch nach rechts rausgeschoben
+82:28 
+
+82:28 dieses objekt der schotte basis vector
+82:32 
+
+82:32 bezüglich der karte iks ist gegeben
+82:36 
+
+82:36 durch die summe über allem der ableitung
+82:40 
+
+82:40 von diesem psion m nach dem xj ist wie
+82:43 
+
+82:43 geht darf jetzt na ja das ist ja nichts
+82:45 
+
+82:45 anderes als die j
+82:47 
+
+82:47 die ableitung in die j richtung der
+82:49 
+
+82:49 basis wechsel funktion der enten
+82:51 
+
+82:51 komponente der basis wechsel funktion
+82:52 
+
+82:52 das ganz einfach auszurechnen müssen das
+82:55 
+
+82:55 ausrechnen und da gehen alle
+82:57 
+
+82:57 möglicherweise alle basis vektoren in
+83:00 
+
+83:00 der y basis ein und so können sie den
+83:04 
+
+83:04 bars weg der in der iks basis in denen
+83:06 
+
+83:06 der ypsilon basis um
+83:07 
+
+83:07 mit unseren definition ist nur die ganze
+83:10 
+
+83:10 rechnung nur eine übung im
+83:11 
+
+83:11 multidimensionaler ketten regel plus
+83:14 
+
+83:14 definition von diesem objekt sie hatte
+83:18 
+
+83:18 ich ihnen gegeben das müssen sie sich
+83:21 
+
+83:21 rein hämmern zu hause und das geht es
+83:24 
+
+83:24 nicht weiter aber es ist ganz einfach ok
+83:26 
+
+83:26 sieht nur schlimm aus so jetzt haben wir
+83:29 
+
+83:29 das
+83:39 
+
+83:39 nachdem wir das haben ist die ganze
+83:42 
+
+83:42 restliche aufgabe gar kein problem mehr
+83:49 
+
+83:49 wir fangen nämlich jetzt einfach auf der
+83:51 
+
+83:51 rechten seite an und hören auf der
+83:54 
+
+83:54 linken seite auf also wir schreiben xj
+83:59 
+
+83:59 nach dammer abgeleitet an lambda nun mal
+84:05 
+
+84:05 die nach der xj am punkt ist gleich wir
+84:11 
+
+84:11 nehmen hier unser ergebnis dollar das
+84:16 
+
+84:16 ist unser ergebnis dollar weil es so
+84:19 
+
+84:19 wertvoll ist und setzen ist ein das ist
+84:23 
+
+84:23 ein xj nach gamma strich an der stelle
+84:28 
+
+84:28 lambda 0 x ja gut was kommt da raus das
+84:31 
+
+84:31 kann ja fast kopf demnach die y mmp aber
+84:38 
+
+84:38 quasi mit der korrektur
+84:39 
+
+84:39 die y m nach dx j
+84:46 
+
+84:46 das sind alles rielle multiplikation
+84:51 
+
+84:51 jetzt für ein quatsch gemacht doch ist
+84:53 
+
+84:53 alles richtig so und dieses ding hier
+84:57 
+
+84:57 ist aber nach der obigen nach den roten
+84:60 
+
+84:60 gleichheitszeichen von oben können wir
+85:06 
+
+85:06 hier weit darunter rechnen ist es gleich
+85:09 
+
+85:09 ob seal on what nach dammer an der
+85:14 
+
+85:14 stelle also abgeleitet an der stelle 0
+85:18 
+
+85:18 demnach die oops i lon jp okay so jetzt
+85:27 
+
+85:27 kann man höchstens noch einen fehler
+85:29 
+
+85:29 machen
+85:31 
+
+85:31 man kann keinen fehler machen aber man
+85:33 
+
+85:33 kann was geschicktes tun
+85:34 
+
+85:34 man kann man will jetzt quasi die seite
+85:38 
+
+85:38 mit der seite vergleichen und am besten
+85:41 
+
+85:41 macht man sowas okay ich sehe wie es mit
+85:43 
+
+85:43 der basis funktioniert am besten macht
+85:45 
+
+85:45 man sowas indem man die eine seite von
+85:47 
+
+85:47 der anderen abzieht
+85:48 
+
+85:48 ok habe hier eine gleichung stehen
+85:50 
+
+85:50 dieses
+85:51 
+
+85:51 gleich dieses ding daraus folgt ich
+85:56 
+
+85:56 nehme jetzt die rechte seite nach links
+85:58 
+
+85:58 rüber und das steht am schluss gleich
+86:00 
+
+86:00 null da also schreibe ich gleich und
+86:02 
+
+86:02 gleich null
+86:03 
+
+86:03 jetzt kommt diese seite da steht jetzt y
+86:05 
+
+86:05 j nach gamal strich von lambda 0 x d
+86:11 
+
+86:11 nach dem pcie lawn j an der stelle
+86:15 
+
+86:15 das ist das - die andere seite xj nach
+86:19 
+
+86:19 gamma strich an der stelle lambda 0
+86:22 
+
+86:22 die y nach dem xj mvp und nochmal
+86:28 
+
+86:28 demnach die y mvp
+86:33 
+
+86:33 so weit so schön und ich würde doch so
+86:36 
+
+86:36 gerne ich würde das die den aktivsten
+86:38 
+
+86:38 jpg steht den 18 m
+86:40 
+
+86:40 ich würde so gerne dieses demnach die y
+86:43 
+
+86:43 irgendwas ausklammern aber es geht nicht
+86:46 
+
+86:46 weil hier steht das j und da steht dass
+86:48 
+
+86:48 ämter ja gut aber dazwischen ist ein
+86:50 
+
+86:50 bloßes minuszeichen hier vorne das j
+86:53 
+
+86:53 darüber wird summiert das kann ich ja
+86:55 
+
+86:55 umbenennen ich kann ja die informations
+86:57 
+
+86:57 index j den kann ich einfach m nennen
+86:59 
+
+86:59 oder wird immer noch genauso summiert da
+87:02 
+
+87:02 sind der index dann kann man einfach so
+87:04 
+
+87:04 und jetzt kann ich aber dieses teil hier
+87:07 
+
+87:07 das kommt in beiden vor
+87:09 
+
+87:09 das kann nicht ausklammern mache also
+87:12 
+
+87:12 eine große klammer klammer dieses ding
+87:14 
+
+87:14 aus ja wenn es ausgeklammert ist es hier
+87:19 
+
+87:19 nicht mehr da weil sie jetzt hinten dran
+87:21 
+
+87:21 steht
+87:27 
+
+87:27 oder so den nach der em ist die basis
+87:35 
+
+87:35 was steht hier das steht 0 gleich
+87:40 
+
+87:40 irgendwelche koeffizienten irgendwelche
+87:42 
+
+87:42 grünen koeffizienten mal demnach der
+87:47 
+
+87:47 epsilon m und wenn der piepser ebene
+87:49 
+
+87:49 basis ist wenn sie die ligna unabhängig
+87:52 
+
+87:52 das heißt für beliebige koeffizienten
+87:54 
+
+87:54 kann diese summe nur 0 sein wenn die
+87:56 
+
+87:56 grüne klammer 0 ist für jeden wert von
+87:58 
+
+87:58 mms ist richtig da die idee nach die y 1
+88:07 
+
+88:07 pps die nach die y dem mp als basis
+88:16 
+
+88:16 insbesondere linear unabhängig sind
+88:20 
+
+88:20 insbesondere linear unabhängig sind
+88:27 
+
+88:27 folgt hieraus dass die klammer 0 ist
+88:36 
+
+88:36 aber das kann ich auch schreiben das y
+88:39 
+
+88:39 nach gamma die komponente der kurve in
+88:44 
+
+88:44 der gamma karte am punkt lambda 0
+88:47 
+
+88:47 abgeleitet ist das gleiche wie die y
+88:55 
+
+88:55 nach dem x iks ihre hat mir eben lodging
+89:05 
+
+89:05 gehabt mensch starb jetzt muss ich
+89:08 
+
+89:08 aufpassen was ist jetzt hier an ihm
+89:10 
+
+89:10 haben das sei ja im genannt genauso ist
+89:12 
+
+89:12 es hier steht das konnte nämlich nicht
+89:13 
+
+89:13 mehr richtig werden steht hier xii
+89:16 
+
+89:16 nachdem abgeleitet am punkt lambda 0
+89:21 
+
+89:21 so was waren das da das waren die
+89:24 
+
+89:24 komponenten die schreibe ich jetzt mal
+89:25 
+
+89:25 ein bisschen kürzer
+89:26 
+
+89:26 das sind die komponenten hier die da
+89:29 
+
+89:29 haben wir genannt strich ist die
+89:33 
+
+89:33 ableitung den punkt lasse ich mal weg
+89:35 
+
+89:35 der eaton komponente in dieser ecke
+89:39 
+
+89:39 da könnte man sagen das sind die
+89:40 
+
+89:40 komponenten funktion der iks karte und
+89:43 
+
+89:43 die dinger da die wollen wir mal nennen
+89:44 
+
+89:44 die ämter komponente aber jetzt in der y
+89:47 
+
+89:47 pate der kurve abgeleitet und das hier
+89:51 
+
+89:51 ist die vermittelnde abbildung y m nach
+89:54 
+
+89:54 dx am p
+89:57 
+
+89:57 und das ist die transformation formel
+90:00 
+
+90:00 für komponenten das geschwindigkeits
+90:09 
+
+90:09 sektors transformations- formel für
+90:17 
+
+90:17 komponenten des tangential vector
+90:27 
+
+90:27 nämlich transformation untervaz der
+90:30 
+
+90:30 transformation unter karten wechseln
+90:45 
+
+90:45 also noch mal angenommen ist sagt ihnen
+90:48 
+
+90:48 jemand ich gebe ihnen den
+90:50 
+
+90:50 geschwindigkeits vector 237 er hat die
+90:55 
+
+90:55 komponenten 237 aber diese komponenten
+90:59 
+
+90:59 beziehen sich auf den sowieso auf die
+91:01 
+
+91:01 sowieso karte
+91:03 
+
+91:03 die gebete des koordinatensystems und
+91:06 
+
+91:06 sagt ihm jetzt machen wir aber eine
+91:09 
+
+91:09 karten wechsel abbildung rüber zur
+91:13 
+
+91:13 anderen karte die es hier drin codiert
+91:15 
+
+91:15 und ist schon die ab dieser karten
+91:16 
+
+91:16 wechsel abbildung und dann sind die
+91:20 
+
+91:20 komponenten die ämter komponente des
+91:23 
+
+91:23 geschwindigkeits sektors in dem neuen
+91:25 
+
+91:25 ist dann gegeben über die situation über
+91:28 
+
+91:28 ihn über all die alten also die erste
+91:31 
+
+91:31 komponente der geschwindigkeit in der
+91:33 
+
+91:33 neuen karte hängt ab von allen
+91:36 
+
+91:36 komponenten der geschwindigkeit in der
+91:37 
+
+91:37 alten karte vermöge einer an diesem
+91:40 
+
+91:40 punkt linearen abbildung nämlich dieser
+91:43 
+
+91:43 linearen abgesehen hat zwei indizes eine
+91:44 
+
+91:44 matrix ist eine lineare abbildung
+91:53 
+
+91:53 natürlich nicht denn dieses j sie meinen
+91:56 
+
+91:56 hier noch kann ich auch nie abschreiben
+91:59 
+
+91:59 denn jeder index der doppel vorkommt
+92:01 
+
+92:01 über den wird summiert und wie ich den
+92:04 
+
+92:04 nenner beim summieren ist egal sie
+92:05 
+
+92:05 müssen nur konflikte vermeiden sie
+92:07 
+
+92:07 können nicht in die fünf indizes mit dem
+92:09 
+
+92:09 gleichen namen haben in einem sack in
+92:11 
+
+92:11 einem produkt ja also sollen immer nur
+92:13 
+
+92:13 höchstens zwei dem gleichen namen haben
+92:15 
+
+92:15 über die wird dann summiert und die
+92:16 
+
+92:16 anderen sind frei und wenn man so
+92:18 
+
+92:18 rechnungen macht kommt häufig vor da hat
+92:20 
+
+92:20 man den teil irgendwo recht in dem teil
+92:22 
+
+92:22 und dann packt man die teile zusammen
+92:23 
+
+92:23 dann gibt es index konflikte und diese
+92:26 
+
+92:26 index konflikte muss man immer aufheben
+92:28 
+
+92:28 indem man über summe indizes über die
+92:30 
+
+92:30 man summiert indem man sie neu benennt
+92:32 
+
+92:32 mit indizes die man nicht verbraucht hat
+92:34 
+
+92:34 aber das ist ja ganz logisch ok also
+92:41 
+
+92:41 diese rechnung also die rechnung von
+92:43 
+
+92:43 heute
+92:44 
+
+92:44 die sind essentiell wichtig das läuft in
+92:47 
+
+92:47 den standard mechanik büchern und dem
+92:49 
+
+92:49 begriff generalisierte koordinaten und
+92:52 
+
+92:52 generalisieren
+92:53 
+
+92:53 geschwindigkeiten das finden sie
+92:55 
+
+92:55 normalerweise in der zehnten vorlesungen
+92:57 
+
+92:57 in der mechanik ja wir sind hier in der
+92:59 
+
+92:59 vierten aber wer quasi die ganzen
+93:01 
+
+93:01 konzeptionellen sachen nach vorne
+93:03 
+
+93:03 schieben damit wir wissen worüber wir
+93:04 
+
+93:04 reden ja aber das ist dass das nennt man
+93:06 
+
+93:06 generalisierte geschwindigkeiten und das
+93:09 
+
+93:09 wäre der der wechsel der generalisierten
+93:11 
+
+93:11 geschwindigkeiten unter wechsel der
+93:13 
+
+93:13 generalisierten koordinaten so würde man
+93:15 
+
+93:15 das im standard mechanik buch nennen
+93:17 
+
+93:17 aber das ist wirklich die volle
+93:19 
+
+93:19 information wenn sie das verstanden
+93:22 
+
+93:22 haben und das muss ich von ihnen
+93:24 
+
+93:24 verlangen wenn sie das verstanden haben
+93:27 
+
+93:27 machten da keiner mehr was vor gibt es
+93:28 
+
+93:28 keine unklarheiten mehr und deswegen
+93:30 
+
+93:30 machen wir es so ja gut noch eine frage
+93:34 
+
+93:34 so weit ich darf sie auch nochmal
+93:39 
+
+93:39 ermuntern ich hatte das in einer e-mail
+93:40 
+
+93:40 geschrieben
+93:41 
+
+93:41 bis jetzt war noch niemand bei mir nach
+93:43 
+
+93:43 der vorlesung hat gesagt lass uns mal
+93:45 
+
+93:45 ins büro gehen oder sonst ein grüppchen
+93:46 
+
+93:46 und irgendwie fragen stellen über physik
+93:49 
+
+93:49 reden mathematik nach der vorlesung ist
+93:52 
+
+93:52 immer also fast immer gelegenheit dazu
+93:54 
+
+93:54 dann ist es wahrscheinlich schlecht für
+93:55 
+
+93:55 sie weil sie an übungen haben früh aber
+93:57 
+
+93:57 dienstags ist gar keine frage
+93:59 
+
+93:59 tun sie das eigentlich bei allen
+93:60 
+
+93:60 vorlesungen immer so gewesen gips und
+94:01 
+
+94:01 krücken gehen wir ins büro und dann
+94:02 
+
+94:02 redet man und da lernen sie mehr als bei
+94:05 
+
+94:05 mancher stunden die sie alleine
+94:06 
+
+94:06 verbringen ok trauen sich kommen wollte
+94:09 
+
+94:09 ich mal darüber reden
+94:10 
+
+94:10 okay es geht weiter
+94:31 
+
+94:31 wir führen noch ein konzept ein von
+94:34 
+
+94:34 allergrößter wichtigkeit und dazu gibt
+94:37 
+
+94:37 es auch wieder übungen da wird ihnen
+94:38 
+
+94:38 vieles klar werden wo tangential räume
+94:48 
+
+94:48 so sie kennen das aus der mathematik die
+94:56 
+
+94:56 mathematik die sagt ihnen doch wenn sie
+94:57 
+
+94:57 einen vektor raum v haben wenn sie einen
+95:02 
+
+95:02 vektor raum v haben dann können sie doch
+95:05 
+
+95:05 zunächst mal eine menge bilden und diese
+95:07 
+
+95:07 menge die nennen sie v sternen und das
+95:12 
+
+95:12 ist eine ganz einfache menge
+95:13 
+
+95:13 die enthält nämlich alle linearen
+95:16 
+
+95:16 abbildungen von v in den grundkörper in
+95:19 
+
+95:19 dem fall reden sein
+95:20 
+
+95:20 wenn ich sonst und will darüber den
+95:22 
+
+95:22 pfeil mache damit meine ich immer
+95:24 
+
+95:24 lineare abbildung also alle abbildungen
+95:26 
+
+95:26 twitter haben es eine lineare abbildung
+95:28 
+
+95:28 was war noch eine lineare abbildung
+95:33 
+
+95:33 naja das war von viel von v+ vieh von w
+95:38 
+
+95:38 und auch war aber viel von v+ w ist
+95:41 
+
+95:41 gleich viel von v plus fiel von wie sie
+95:44 
+
+95:44 können also erst abbilden will erst
+95:46 
+
+95:46 formieren und dann abbilden oder erst
+95:48 
+
+95:48 abbilden dann summieren soll es gleich
+95:49 
+
+95:49 herauskommen ist die erste eigenschaften
+95:51 
+
+95:51 die zweite ist dass unter skalierungen
+95:53 
+
+95:53 land damals dass sie dann auch erst
+95:56 
+
+95:56 abbilden können und dann eskalieren das
+95:59 
+
+95:59 war linear und immer wenn ich das so
+96:02 
+
+96:02 nicht hin schreiben will mache ich
+96:03 
+
+96:03 einfach einen kleinen twitter ok linear
+96:06 
+
+96:06 apple so sie bilden eine menge aller
+96:08 
+
+96:08 linearen abbildung von diesem weg der
+96:10 
+
+96:10 raum in die reellen zahlen nichts
+96:12 
+
+96:12 einfacher als das und jetzt starten sie
+96:15 
+
+96:15 ihn aus und sie ahnen schon womit wir
+96:17 
+
+96:17 haben ein raum von abbildungen den
+96:19 
+
+96:19 staaten wie raus mit einer addition und
+96:21 
+
+96:21 einer skalierung und auch essen
+96:22 
+
+96:22 multiplikation genannt die schreibe ich
+96:24 
+
+96:24 jetzt beim besten willen nicht mehr hin
+96:26 
+
+96:26 das wäre eben die blümchen plus und
+96:28 
+
+96:28 blümchen mal um blümchen plus und
+96:30 
+
+96:30 blümchen mal sind wieder die punktweise
+96:33 
+
+96:33 definierten von dem reellen zahlen
+96:36 
+
+96:36 geerbte addition weil wir eben abbildung
+96:39 
+
+96:39 haben und dieses ding aber erst
+96:41 
+
+96:41 ausgestattet damit ist wieder ein vector
+96:44 
+
+96:44 wenn der weg darum v endlich dimensional
+96:47 
+
+96:47 ist hat ja auch die gleiche dimension
+96:48 
+
+96:48 und so weiter und so fort
+96:51 
+
+96:51 das ding heißt der duale vector raum
+96:54 
+
+96:54 heißt dualer vector raum oder auch zuweg
+97:03 
+
+97:03 torraum
+97:05 
+
+97:05 naja vector raum
+97:09 
+
+97:09 wir wollen eigentlich immer korrekt raum
+97:12 
+
+97:12 nennen der ist nämlich der kompagnon von
+97:15 
+
+97:15 dem man so sagt die mathematik ja was
+97:21 
+
+97:21 machen wir jetzt damit
+97:24 
+
+97:24 wir haben bis jetzt nur einen weg wir
+97:26 
+
+97:26 haben mehrere konstruiert aber wir
+97:29 
+
+97:29 benutzen baugleich den tangential raum
+97:35 
+
+97:35 an einem bestimmten punkt also wir haben
+97:37 
+
+97:37 an einem punkt der mannigfaltigkeit
+97:38 
+
+97:38 empfangen zahl raum definiert was machen
+97:40 
+
+97:40 wir jetzt wir betrachten auch noch dem
+97:43 
+
+97:43 dazugehörigen potenzial raum
+97:47 
+
+97:47 das sind alle linearen abbildungen
+97:49 
+
+97:49 schreib doch mal hin
+97:50 
+
+97:50 dieser code tangential raum der hatten
+97:53 
+
+97:53 sternchen hier oben und das muss dann
+97:56 
+
+97:56 wohl der raum alle und es ist ja auch
+97:58 
+
+97:58 einer linearen abbildung seien die
+98:01 
+
+98:01 tangentiale vector fressen und in
+98:03 
+
+98:03 linearer weise daraus eine reale zahl
+98:05 
+
+98:05 machen
+98:06 
+
+98:07 und weil wir natürlich faul sind sparen
+98:13 
+
+98:13 wir uns die klammern und schreiben den
+98:15 
+
+98:15 stern dahin also nicht wundern wenn der
+98:17 
+
+98:17 stern da steht so macht man das halt
+98:20 
+
+98:20 notation okay ist der code tangential
+98:23 
+
+98:23 raum und jetzt sagen sie ja ist ja alles
+98:27 
+
+98:27 schön und gut also wir haben irgendwie
+98:28 
+
+98:28 diese richtung ableitung das sind die
+98:29 
+
+98:29 elemente dieses tpm aber was wäre denn
+98:33 
+
+98:33 jetzt mal so ein griffiges beispiel für
+98:36 
+
+98:36 ein element aus dem tpm stern und das
+98:39 
+
+98:39 griffige beispiel das kennen sie auch
+98:41 
+
+98:41 schon seit der oberstufe das hat ihn
+98:42 
+
+98:42 noch niemand verraten es geht nämlich
+98:45 
+
+98:45 folgendermaßen definition wir nehmen
+98:49 
+
+98:49 einen punkt p aus einer glatten
+98:52 
+
+98:52 mannigfaltigkeit und wir definieren
+98:58 
+
+98:58 das folgende objekt das objekt heißt
+99:01 
+
+99:01 eigentlich nur klein d
+99:03 
+
+99:03 aber wir wollen uns merken dass das
+99:05 
+
+99:05 zunächst mal nur an einem punkt p
+99:07 
+
+99:07 definiert ist hingegen mit dem wir so
+99:09 
+
+99:09 ein kleines p mit mit wir wissen es geht
+99:11 
+
+99:11 hier um den pnn mannigfaltigkeit aber
+99:14 
+
+99:14 eigentlich das kleine de
+99:15 
+
+99:15 und was macht das das kleine die das
+99:18 
+
+99:18 frisst eine glatte funktion und spuckt
+99:21 
+
+99:21 ihnen man glaubt es kaum wieder eine
+99:22 
+
+99:22 reale zahl aus und es tut es auf
+99:25 
+
+99:25 folgende art und weise gibt dann sohn df
+99:30 
+
+99:30 und was stimmt hier nicht
+99:34 
+
+99:34 ist alles gar nicht wahr moment jetzt
+99:39 
+
+99:39 hab ich nicht vertrödelt hier es fristen
+99:42 
+
+99:42 funktionen das ist vulva hhs frist eine
+99:45 
+
+99:45 funktion aber es landet im tt stern
+99:49 
+
+99:49 das tut nämlich aha so das heißt so dass
+99:52 
+
+99:52 hier wird zu einem echten sowas
+99:54 
+
+99:54 zugeordnet aber das ding muss in diesem
+99:56 
+
+99:56 dtp stern m liegen
+99:58 
+
+99:58 aber das ist ein weg torraum da weiß ich
+100:01 
+
+100:01 ganz bestimmt wie diese abbildung
+100:02 
+
+100:02 aussieht wenn ich die anwende auf ein
+100:05 
+
+100:05 beliebiges iks in diesem weg torraum
+100:07 
+
+100:07 also für xpm schreiben wir das hin und
+100:14 
+
+100:14 jetzt kommt die definition und jetzt ist
+100:16 
+
+100:16 unfassbar einfach das ist einfach die
+100:18 
+
+100:18 anwendung von xf wie das gewissen weil
+100:22 
+
+100:22 wenn tangential vector haben dass wir
+100:24 
+
+100:24 die autev anwenden sind diese richtung
+100:27 
+
+100:27 ableitung okay und so ist dieses gpf
+100:30 
+
+100:30 definiert aber sie sehen schon das ist
+100:33 
+
+100:33 auch li na ja wenn sie jetzt xy
+100:36 
+
+100:36 schreiben dann ist es die summe der
+100:37 
+
+100:37 beiden und skaliert dh sie haben hier
+100:41 
+
+100:41 tatsächlich dieses df ist tatsächlich
+100:44 
+
+100:44 ein element in tpm das schreiben wir
+100:47 
+
+100:47 noch kurz irgendwohin
+101:00 
+
+101:00 also ist dpf ist ein element aus cpm
+101:09 
+
+101:09 dann nämlich so ein element aus tpm
+101:12 
+
+101:12 fressen ohne reale zahl draus machen
+101:14 
+
+101:14 ja genau so sieht es aus so und jetzt
+101:19 
+
+101:19 kommt der clou insbesondere haben wir
+101:25 
+
+101:25 eine ganze wenn wir eine karte haben sei
+101:28 
+
+101:28 es eine karte dann sind ja all diese
+101:35 
+
+101:35 funktionen x1 von nach rb6 die dimension
+101:42 
+
+101:42 von nach erna das sind die koordinaten
+101:44 
+
+101:44 abbildung wir kommen alle aus der karte
+101:46 
+
+101:46 abbildung das sind ja alles glatte
+101:49 
+
+101:49 funktionen jetzt natürlich moment jetzt
+101:55 
+
+101:55 jetzt ist es komisch war es nicht so
+101:58 
+
+101:58 dass wir von der karte abbildung nur
+101:59 
+
+101:59 sagen können dass sie eigentlich stetig
+102:02 
+
+102:02 ist und dass wir gar nicht sagen können
+102:05 
+
+102:05 dass die glatt sind ja den ersten blick
+102:09 
+
+102:09 ja aber wir können mal ausrechnen nach
+102:13 
+
+102:13 der definition das ist eine funktion von
+102:15 
+
+102:15 der mannigfaltigkeit in die realen
+102:16 
+
+102:16 zahlen
+102:17 
+
+102:17 versuchen sie mal als hausaufgabe zu
+102:19 
+
+102:19 zeigen dass sie in unserem sinne c
+102:21 
+
+102:21 unendlichem sind okay aber das sind sie
+102:25 
+
+102:25 und das heißt man kann daher dass die
+102:28 
+
+102:28 darauf anwenden
+102:30 
+
+102:30 daher kann man bilden dx also dpi x1 sdp
+102:40 
+
+102:40 xd diese dinger können sie alle bilden
+102:43 
+
+102:43 und aus der schule kennen sie das aus
+102:45 
+
+102:45 dem eindimensionalen und da hatten sie
+102:50 
+
+102:50 solche dx oder die carmen vorzugsweise
+102:54 
+
+102:54 und der integralen vor das dx war immer
+102:58 
+
+102:58 dort wo es integral aufhört oder sowas
+103:02 
+
+103:02 das hier ist die formale definition
+103:05 
+
+103:05 dieser dx und wenn sie das in höheren
+103:07 
+
+103:07 dimensionen haben sind das auch ist das
+103:09 
+
+103:09 auch nachts die wxw im integral
+103:11 
+
+103:11 vorkommen
+103:12 
+
+103:12 ok und zeit ist um
+103:15 
+
+103:15 ich werde ihnen auf das nächste übungs
+103:17 
+
+103:17 blatt wunderschöne übung machen da
+103:19 
+
+103:19 werden sie unter anderem lernen dass der
+103:21 
+
+103:21 gradient eines einer funktion der ist
+103:24 
+
+103:24 gar kein vector das hat man die enten
+103:26 
+
+103:26 weg der gradient ist ein korrekter und
+103:28 
+
+103:28 kein vector und das werde man dort alles
+103:30 
+
+103:31 üben ja noch anfragen
+103:37 
+
+103:37 können sie noch einen moment bitte noch
+103:39 
+
+103:39 einmal ja es würde auch c1 reichen sagen
+103:46 
+
+103:46 sie das ist richtig ist entweder das
+103:47 
+
+103:47 hätte ich erwähnen sollen c1 würde
+103:49 
+
+103:49 reichen aber es gibt theoreme die einem
+103:52 
+
+103:52 garantieren dass c und endlich ist zwar
+103:55 
+
+103:55 eine stärkere forderung aber sie können
+103:57 
+
+103:57 aus jedem c1 atlas immer auch ein c
+103:60 
+
+103:60 unendlich atlas machen
+104:01 
+
+104:01 grob gesprochen und dann macht man das
+104:03 
+
+104:03 als vereinfachen der annahme da muss man
+104:05 
+
+104:05 sich nicht darum kümmern wie oft man
+104:07 
+
+104:07 könnte das scharfe ausdrücken das ist
+104:08 
+
+104:08 völlig richtig
+104:09 
+
+104:09 okay ist dienstag
+104:15 
+
+104:15 [Musik]
